@@ -1,5 +1,251 @@
 [
   {
+    "id": "3a589fc9-78ed-4d53-a0fe-a9c71a7cb12d",
+    "question": "What target blood pressure should adults with hypertension aim for?",
+    "status": "Allowed",
+    "status_slug": "allowed",
+    "confidence": {
+      "score": 70,
+      "label": "High",
+      "reason": "Hybrid retrieval score 0.742; dense/lexical agreement 100%; top-result margin 0.12."
+    },
+    "answer": "\ud83c\udfaf **Direct Clinical Answer**:\n## 9 What target blood pressure should pharmacological treatment aim to achieve? P Adult men and women I Specific systolic and diastolic blood pressure targets: (mmHg): < 120, < 130, < 140, < 150 (mmHg): < 70, < 80, < 90 C Systolic or diastolic blood pressure targets that are higher than the intervention targets O Death (all-cause mortality), cardiovascular death (death from MI, sudden cardiac death or stroke), stroke, myocardial infarction, end-stage renal disease heart failure events, cognitive impairment/dementia, and adverse events s Based on different effect modifiers such pre-existing CAD, stroke, diabetes, age, sex, chronic kidney disease and race/ethnicity\n\n\ud83d\udc8a **Key Guidelines & Recommendations**:\n- **9 What target blood pressure should pharmacological treatment aim to achieve?**: ## 9 What target blood pressure should pharmacological treatment aim to achieve?\n- **3.6 Target blood pressure**: ### 3.6 Target blood pressure 6.\n- **6. RECOMMENDATIONS ON TARGET BLOOD PRESSURE**: ## 6.\n- **10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?**: ## 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?\n\n\u26a0\ufe0f **Considerations & Risk Factors**:\n- Always individualize therapy for comorbidities (CVD, diabetes, chronic kidney disease) and confirm the diagnosis before initiating pharmacological treatment.\n\n\ud83d\udcda **Source Evidence & Traceability**:\n- **Page 59** | *Section: 9 What target blood pressure should pharmacological treatment aim to achieve?* | `chunk_110`\n- **Page 28** | *Section: 3.6 Target blood pressure* | `chunk_047`\n- **Page 10, 11** | *Section: 6. RECOMMENDATIONS ON TARGET BLOOD PRESSURE* | `chunk_011`\n- **Page 59, 60** | *Section: 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?* | `chunk_111`\n- **Page 25, 26** | *Section: 5. RECOMMENDATION ON COMBINATION THERAPY* | `chunk_042`\n\nRetrieval confidence: 70% (High)",
+    "section_title": "9 What target blood pressure should pharmacological treatment aim to achieve?",
+    "summary": "## 9 What target blood pressure should pharmacological treatment aim to achieve? P Adult men and women I Specific systolic and diastolic blood pressure targets: (mmHg): < 120, < 130, < 140, < 150 (mmHg): < 70, < 80, < 90 C Systolic or diastolic blood pressure targets that are higher than the intervention targets O Deat",
+    "sources": [
+      {
+        "chunk_id": "chunk_110",
+        "section_title": "9 What target blood pressure should pharmacological treatment aim to achieve?",
+        "page_numbers": [
+          59
+        ],
+        "score": 0.742
+      },
+      {
+        "chunk_id": "chunk_047",
+        "section_title": "3.6 Target blood pressure",
+        "page_numbers": [
+          28
+        ],
+        "score": 0.73
+      },
+      {
+        "chunk_id": "chunk_011",
+        "section_title": "6. RECOMMENDATIONS ON TARGET BLOOD PRESSURE",
+        "page_numbers": [
+          10,
+          11
+        ],
+        "score": 0.719
+      },
+      {
+        "chunk_id": "chunk_111",
+        "section_title": "10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?",
+        "page_numbers": [
+          59,
+          60
+        ],
+        "score": 0.687
+      },
+      {
+        "chunk_id": "chunk_042",
+        "section_title": "5. RECOMMENDATION ON COMBINATION THERAPY",
+        "page_numbers": [
+          25,
+          26
+        ],
+        "score": 0.654
+      }
+    ],
+    "sources_count": 5,
+    "timestamp": 1787214304.5102897,
+    "day_label": "Today"
+  },
+  {
+    "id": "67fc8588-fd43-4900-a972-0ec26e93c9e9",
+    "question": "Can pharmacists or nurses provide pharmacological treatment for hypertension?",
+    "status": "Allowed",
+    "status_slug": "allowed",
+    "confidence": {
+      "score": 74,
+      "label": "High",
+      "reason": "Hybrid retrieval score 0.751; dense/lexical agreement 100%; top-result margin 0.56."
+    },
+    "answer": "\ud83c\udfaf **Direct Clinical Answer**:\n## 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS WHO suggests that pharmacological treatment of hypertension can be provided by nonphysician professionals such as pharmacists and nurses, as long as the following conditions are met: proper training, prescribing authority, specific management protocols and physician oversight.\n\n\ud83d\udc8a **Key Guidelines & Recommendations**:\n- **8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS**: ## 8.\n- **8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS**: ## 8.\n- **Scope and objectives of the hypertension guideline**: elevated on two different days.\n- **10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?**: ## 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?\n\n\u26a0\ufe0f **Considerations & Risk Factors**:\n- Always individualize therapy for comorbidities (CVD, diabetes, chronic kidney disease) and confirm the diagnosis before initiating pharmacological treatment.\n\n\ud83d\udcda **Source Evidence & Traceability**:\n- **Page 11** | *Section: 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS* | `chunk_013`\n- **Page 31** | *Section: 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS* | `chunk_053`\n- **Page 14** | *Section: Scope and objectives of the hypertension guideline* | `chunk_016`\n- **Page 59, 60** | *Section: 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?* | `chunk_111`\n- **Page 20, 21** | *Section: 3.2 Laboratory testing before and during pharmacological treatment* | `chunk_031`\n\nRetrieval confidence: 74% (High)",
+    "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+    "summary": "## 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS WHO suggests that pharmacological treatment of hypertension can be provided by nonphysician professionals such as pharmacists and nurses, as long as the following conditions are met: proper training, prescribing authority, specific management protocols and",
+    "sources": [
+      {
+        "chunk_id": "chunk_013",
+        "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+        "page_numbers": [
+          11
+        ],
+        "score": 0.751
+      },
+      {
+        "chunk_id": "chunk_053",
+        "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+        "page_numbers": [
+          31
+        ],
+        "score": 0.695
+      },
+      {
+        "chunk_id": "chunk_016",
+        "section_title": "Scope and objectives of the hypertension guideline",
+        "page_numbers": [
+          14
+        ],
+        "score": 0.669
+      },
+      {
+        "chunk_id": "chunk_111",
+        "section_title": "10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?",
+        "page_numbers": [
+          59,
+          60
+        ],
+        "score": 0.627
+      },
+      {
+        "chunk_id": "chunk_031",
+        "section_title": "3.2 Laboratory testing before and during pharmacological treatment",
+        "page_numbers": [
+          20,
+          21
+        ],
+        "score": 0.627
+      }
+    ],
+    "sources_count": 5,
+    "timestamp": 1787213696.324174,
+    "day_label": "Today"
+  },
+  {
+    "id": "3472737c-37cf-4250-9e55-444773a0b1b6",
+    "question": "Can pharmacists or nurses provide pharmacological treatment for hypertension?",
+    "status": "Allowed",
+    "status_slug": "allowed",
+    "confidence": {
+      "score": 74,
+      "label": "High",
+      "reason": "Hybrid retrieval score 0.751; dense/lexical agreement 100%; top-result margin 0.56."
+    },
+    "answer": "\ud83c\udfaf **Direct Clinical Answer**:\n## 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS WHO suggests that pharmacological treatment of hypertension can be provided by nonphysician professionals such as pharmacists and nurses, as long as the following conditions are met: proper training, prescribing authority, specific management protocols and physician oversight.\n\n\ud83d\udc8a **Key Guidelines & Recommendations**:\n- **8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS**: ## 8.\n- **8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS**: ## 8.\n- **Scope and objectives of the hypertension guideline**: elevated on two different days.\n- **10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?**: ## 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?\n\n\u26a0\ufe0f **Considerations & Risk Factors**:\n- Always individualize therapy for comorbidities (CVD, diabetes, chronic kidney disease) and confirm the diagnosis before initiating pharmacological treatment.\n\n\ud83d\udcda **Source Evidence & Traceability**:\n- **Page 11** | *Section: 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS* | `chunk_013`\n- **Page 31** | *Section: 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS* | `chunk_053`\n- **Page 14** | *Section: Scope and objectives of the hypertension guideline* | `chunk_016`\n- **Page 59, 60** | *Section: 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?* | `chunk_111`\n- **Page 20, 21** | *Section: 3.2 Laboratory testing before and during pharmacological treatment* | `chunk_031`\n\nRetrieval confidence: 74% (High)",
+    "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+    "summary": "## 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS WHO suggests that pharmacological treatment of hypertension can be provided by nonphysician professionals such as pharmacists and nurses, as long as the following conditions are met: proper training, prescribing authority, specific management protocols and",
+    "sources": [
+      {
+        "chunk_id": "chunk_013",
+        "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+        "page_numbers": [
+          11
+        ],
+        "score": 0.751
+      },
+      {
+        "chunk_id": "chunk_053",
+        "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+        "page_numbers": [
+          31
+        ],
+        "score": 0.695
+      },
+      {
+        "chunk_id": "chunk_016",
+        "section_title": "Scope and objectives of the hypertension guideline",
+        "page_numbers": [
+          14
+        ],
+        "score": 0.669
+      },
+      {
+        "chunk_id": "chunk_111",
+        "section_title": "10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?",
+        "page_numbers": [
+          59,
+          60
+        ],
+        "score": 0.627
+      },
+      {
+        "chunk_id": "chunk_031",
+        "section_title": "3.2 Laboratory testing before and during pharmacological treatment",
+        "page_numbers": [
+          20,
+          21
+        ],
+        "score": 0.627
+      }
+    ],
+    "sources_count": 5,
+    "timestamp": 1787213121.867867,
+    "day_label": "Today"
+  },
+  {
+    "id": "ea1d63b1-50a3-4a29-a293-966bba1c9384",
+    "question": "What target blood pressure should adults with hypertension aim for?",
+    "status": "Allowed",
+    "status_slug": "allowed",
+    "confidence": {
+      "score": 70,
+      "label": "High",
+      "reason": "Hybrid retrieval score 0.742; dense/lexical agreement 100%; top-result margin 0.12."
+    },
+    "answer": "\ud83c\udfaf **Direct Clinical Answer**:\n## 9 What target blood pressure should pharmacological treatment aim to achieve? P Adult men and women I Specific systolic and diastolic blood pressure targets: (mmHg): < 120, < 130, < 140, < 150 (mmHg): < 70, < 80, < 90 C Systolic or diastolic blood pressure targets that are higher than the intervention targets O Death (all-cause mortality), cardiovascular death (death from MI, sudden cardiac death or stroke), stroke, myocardial infarction, end-stage renal disease heart failure events, cognitive impairment/dementia, and adverse events s Based on different effect modifiers such pre-existing CAD, stroke, diabetes, age, sex, chronic kidney disease and race/ethnicity\n\n\ud83d\udc8a **Key Guidelines & Recommendations**:\n- **9 What target blood pressure should pharmacological treatment aim to achieve?**: ## 9 What target blood pressure should pharmacological treatment aim to achieve?\n- **3.6 Target blood pressure**: ### 3.6 Target blood pressure 6.\n- **6. RECOMMENDATIONS ON TARGET BLOOD PRESSURE**: ## 6.\n- **10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?**: ## 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?\n\n\u26a0\ufe0f **Considerations & Risk Factors**:\n- Always individualize therapy for comorbidities (CVD, diabetes, chronic kidney disease) and confirm the diagnosis before initiating pharmacological treatment.\n\n\ud83d\udcda **Source Evidence & Traceability**:\n- **Page 59** | *Section: 9 What target blood pressure should pharmacological treatment aim to achieve?* | `chunk_110`\n- **Page 28** | *Section: 3.6 Target blood pressure* | `chunk_047`\n- **Page 10, 11** | *Section: 6. RECOMMENDATIONS ON TARGET BLOOD PRESSURE* | `chunk_011`\n- **Page 59, 60** | *Section: 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?* | `chunk_111`\n- **Page 25, 26** | *Section: 5. RECOMMENDATION ON COMBINATION THERAPY* | `chunk_042`\n\nRetrieval confidence: 70% (High)",
+    "section_title": "9 What target blood pressure should pharmacological treatment aim to achieve?",
+    "summary": "## 9 What target blood pressure should pharmacological treatment aim to achieve? P Adult men and women I Specific systolic and diastolic blood pressure targets: (mmHg): < 120, < 130, < 140, < 150 (mmHg): < 70, < 80, < 90 C Systolic or diastolic blood pressure targets that are higher than the intervention targets O Deat",
+    "sources": [
+      {
+        "chunk_id": "chunk_110",
+        "section_title": "9 What target blood pressure should pharmacological treatment aim to achieve?",
+        "page_numbers": [
+          59
+        ],
+        "score": 0.742
+      },
+      {
+        "chunk_id": "chunk_047",
+        "section_title": "3.6 Target blood pressure",
+        "page_numbers": [
+          28
+        ],
+        "score": 0.73
+      },
+      {
+        "chunk_id": "chunk_011",
+        "section_title": "6. RECOMMENDATIONS ON TARGET BLOOD PRESSURE",
+        "page_numbers": [
+          10,
+          11
+        ],
+        "score": 0.719
+      },
+      {
+        "chunk_id": "chunk_111",
+        "section_title": "10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?",
+        "page_numbers": [
+          59,
+          60
+        ],
+        "score": 0.687
+      },
+      {
+        "chunk_id": "chunk_042",
+        "section_title": "5. RECOMMENDATION ON COMBINATION THERAPY",
+        "page_numbers": [
+          25,
+          26
+        ],
+        "score": 0.654
+      }
+    ],
+    "sources_count": 5,
+    "timestamp": 1787213106.1707845,
+    "day_label": "Today"
+  },
+  {
     "id": "812c9cfb-25b2-44ae-b4c0-d217accf74c6",
     "question": "Can pharmacists or nurses provide pharmacological treatment for hypertension?",
     "status": "Allowed",

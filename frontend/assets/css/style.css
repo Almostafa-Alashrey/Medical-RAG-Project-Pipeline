@@ -21,6 +21,28 @@
   --shadow: 0 2px 10px rgba(20, 40, 35, 0.06);
 }
 
+/* Theme values are kept as variables so every page shares the same dark mode. */
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --teal-dark: #b9e0d6;
+  --teal: #48a893;
+  --teal-hover: #67bca9;
+  --bg: #101917;
+  --card: #172522;
+  --border: #30433e;
+  --text: #e7f1ed;
+  --muted: #a7b8b2;
+  --yellow: #58491e;
+  --yellow-text: #f5d982;
+  --green-bg: #173d2a;
+  --green-text: #86d9a7;
+  --red-bg: #482725;
+  --red-text: #f2a39d;
+  --blue-bg: #203750;
+  --blue-text: #a9caf7;
+  --shadow: 0 2px 14px rgba(0, 0, 0, 0.28);
+}
+
 * { box-sizing: border-box; }
 
 html, body {
@@ -30,6 +52,7 @@ html, body {
   color: var(--text);
   font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
+  transition: background-color 180ms ease, color 180ms ease;
 }
 
 a { text-decoration: none; color: inherit; }
@@ -89,6 +112,20 @@ button { font-family: inherit; cursor: pointer; }
 .nav-links a:hover { color: var(--teal-dark); }
 
 .nav-right { display: flex; align-items: center; gap: 14px; }
+
+.theme-toggle {
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg);
+  color: var(--teal-dark);
+  display: inline-grid;
+  place-items: center;
+  font-size: 18px;
+}
+.theme-toggle:hover { border-color: var(--teal); }
+.theme-toggle:focus-visible { outline: 3px solid var(--blue-text); outline-offset: 2px; }
 
 .btn {
   display: inline-flex;
@@ -228,7 +265,7 @@ button { font-family: inherit; cursor: pointer; }
 .feature-icon {
   width: 30px; height: 30px;
   border-radius: 8px;
-  background: #eef2ee;
+  background: var(--bg);
   display: flex; align-items: center; justify-content: center;
   margin-bottom: 12px;
   color: var(--teal);
@@ -245,7 +282,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 
 .stat-card {
-  background: #eef2ec;
+  background: var(--bg);
   border-radius: var(--radius-md);
   padding: 18px 10px;
   text-align: center;
@@ -326,14 +363,14 @@ button { font-family: inherit; cursor: pointer; }
   border-radius: 14px;
   padding: 16px 18px;
 }
-.bot-card.refused-card { background: #f7f1ef; }
+.bot-card.refused-card { background: var(--red-bg); }
 
 .bot-card h5 { margin: 0 0 8px; font-size: 14.5px; color: var(--teal-dark); }
-.bot-card .bot-text { margin: 0; font-size: 14px; line-height: 1.65; color: #33413d; white-space: pre-wrap; }
+.bot-card .bot-text { margin: 0; font-size: 14px; line-height: 1.65; color: var(--text); white-space: pre-wrap; }
 
 .citation-chips { display: flex; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
 .citation-chip {
-  background: #fff;
+  background: var(--card);
   border: 1px solid var(--border);
   border-radius: 999px;
   padding: 5px 12px;
@@ -395,7 +432,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 .filter-tab {
   padding: 8px 16px; border-radius: 999px; font-size: 13px; font-weight: 600;
-  border: 1px solid var(--border); color: var(--muted); background: #fff;
+  border: 1px solid var(--border); color: var(--muted); background: var(--card);
 }
 .filter-tab.active { background: var(--teal-dark); color: #fff; border-color: var(--teal-dark); }
 
@@ -420,7 +457,7 @@ button { font-family: inherit; cursor: pointer; }
 .pagination { display: flex; justify-content: center; gap: 14px; padding: 8px 0 28px; }
 .pagination button {
   width: 34px; height: 34px; border-radius: 50%; border: 1px solid var(--border);
-  background: #fff; color: var(--teal-dark);
+  background: var(--card); color: var(--teal-dark);
 }
 
 /* ---------------- About page ---------------- */
