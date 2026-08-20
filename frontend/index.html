@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>PressIQ — Hypertension Treatment Assistant</title>
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<div class="page-shell">
+
+  <nav class="navbar">
+    <div class="brand">
+      <span class="brand-mark">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3C6 8 3 11.5 3 15a9 9 0 0018 0c0-3.5-3-7-9-12z"/></svg>
+      </span>
+      PressIQ
+    </div>
+    <div class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="chat.html">Chat</a>
+      <a href="history.html">History</a>
+      <a href="about.html">About</a>
+    </div>
+    <div class="nav-right">
+      <a href="chat.html" class="btn btn-primary">Start chat</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div>
+      <span class="badge-pill">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M12 3C6 8 3 11.5 3 15a9 9 0 0018 0c0-3.5-3-7-9-12z"/></svg>
+        WHO guideline, 2021
+      </span>
+      <h1>Clear answers on hypertension treatment</h1>
+      <p>Ask a question and get an answer grounded in the WHO guideline for pharmacological treatment of hypertension, with page-level citations every time.</p>
+
+      <div class="pages-indexed">
+        <div class="dot-stack"><span></span><span></span><span></span></div>
+        <div>
+          <span class="count" id="pagesIndexedCount">61 pages</span>
+          <span class="label">of WHO guideline indexed</span>
+        </div>
+      </div>
+
+      <div class="hero-ctas">
+        <a href="chat.html" class="btn btn-primary">Start chatting →</a>
+        <a href="about.html" class="btn btn-outline">Learn more</a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="pulse-rings">
+        <div class="pulse-inner">
+          <div class="pulse-core">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h4l2-7 4 14 2-7h6"/></svg>
+          </div>
+        </div>
+      </div>
+      <div class="badge-check">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg>
+      </div>
+      <div class="badge-plus">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M12 5v14M5 12h14"/></svg>
+      </div>
+    </div>
+  </section>
+
+  <section class="feature-grid">
+    <div class="feature-card">
+      <div class="feature-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4M12 3l8 4v5c0 5-3.5 8.5-8 9-4.5-.5-8-4-8-9V7l8-4z"/></svg></div>
+      <h4>Evidence-grounded</h4>
+      <p>Never answers beyond retrieved text.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h7l-1 8 11-14h-7l1-6z"/></svg></div>
+      <h4>Instant retrieval</h4>
+      <p>Answers ready in seconds.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4zM8 9h8M8 13h5"/></svg></div>
+      <h4>Full citations</h4>
+      <p>Section, page and chunk shown.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l8 4v5c0 5-3.5 8.5-8 9-4.5-.5-8-4-8-9V7l8-4z"/></svg></div>
+      <h4>Private by design</h4>
+      <p>Nothing you ask is stored or shared.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19h4v-6H4v6zM10 19h4V9h-4v10zM16 19h4V4h-4v15z"/></svg></div>
+      <h4>Measured quality</h4>
+      <p>Retrieval evaluated on real questions.</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+      <h4>Always available</h4>
+      <p>Ask anything, any time.</p>
+    </div>
+  </section>
+
+  <section class="stats-bar">
+    <div class="stat-card"><div class="stat-num" id="statCited">100%</div><div class="stat-label">cited</div></div>
+    <div class="stat-card"><div class="stat-num" id="statPages">61</div><div class="stat-label">pages</div></div>
+    <div class="stat-card"><div class="stat-num">WHO</div><div class="stat-label">2021</div></div>
+    <div class="stat-card"><div class="stat-num">24/7</div><div class="stat-label">available</div></div>
+    <a href="chat.html" class="cta-card">
+      <span class="cta-icon">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+      </span>
+      <span>
+        <strong>Ask the assistant</strong>
+        <span>About treatments, drug classes and more</span>
+      </span>
+    </a>
+  </section>
+
+</div>
+
+<script src="assets/js/api.js"></script>
+<script>
+(async () => {
+  try {
+    const s = await apiGet("/api/stats");
+    document.getElementById("pagesIndexedCount").textContent = `${s.pages_indexed} pages`;
+    document.getElementById("statPages").textContent = s.pages_indexed;
+    document.getElementById("statCited").textContent = `${s.cited_rate}%`;
+  } catch (e) {
+    console.warn("Stats unavailable, showing defaults.", e);
+  }
+})();
+</script>
+</body>
+</html>

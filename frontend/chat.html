@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>PressIQ — Chat</title>
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<div class="page-shell">
+
+  <nav class="navbar">
+    <div class="brand">
+      <span class="brand-mark">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3C6 8 3 11.5 3 15a9 9 0 0018 0c0-3.5-3-7-9-12z"/></svg>
+      </span>
+      PressIQ
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="chat.html" class="active">Chat</a>
+      <a href="history.html">History</a>
+      <a href="about.html">About</a>
+    </div>
+    <div class="nav-right">
+      <button class="btn btn-outline" id="newChatBtn">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+        New chat
+      </button>
+    </div>
+  </nav>
+
+  <div class="chat-toolbar">
+    <button class="chip" data-q="What target blood pressure should adults with hypertension aim for?">Target blood pressure</button>
+    <button class="chip" data-q="What is the first-line drug treatment for hypertension in adults?">Drug classes</button>
+    <button class="chip" data-q="What lifestyle advice is recommended for hypertension?">Lifestyle advice</button>
+  </div>
+
+  <div class="chat-window" id="chatWindow"></div>
+
+  <form class="chat-input-bar" id="chatForm">
+    <input type="text" id="chatInput" placeholder="Ask about hypertension treatment…" autocomplete="off" />
+    <button type="submit" class="btn btn-primary">Send</button>
+  </form>
+
+</div>
+
+<script src="assets/js/api.js"></script>
+<script src="assets/js/chat.js"></script>
+</body>
+</html>

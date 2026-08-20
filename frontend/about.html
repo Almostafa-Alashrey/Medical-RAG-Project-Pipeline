@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>PressIQ — About</title>
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<div class="page-shell">
+
+  <nav class="navbar">
+    <div class="brand">
+      <span class="brand-mark">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3C6 8 3 11.5 3 15a9 9 0 0018 0c0-3.5-3-7-9-12z"/></svg>
+      </span>
+      PressIQ
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="chat.html">Chat</a>
+      <a href="history.html">History</a>
+      <a href="about.html" class="active">About</a>
+    </div>
+    <div class="nav-right">
+      <a href="chat.html" class="btn btn-ghost">Start chat →</a>
+    </div>
+  </nav>
+
+  <div class="about-head">
+    <h1>How PressIQ works</h1>
+    <p>A transparent, evidence-first pipeline. Nothing is invented.</p>
+  </div>
+
+  <div class="about-steps">
+    <div class="step-card">
+      <div class="step-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4zM8 9h8M8 13h5"/></svg></div>
+      OCR and clean
+    </div>
+    <div class="step-card">
+      <div class="step-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="7" height="7"/><rect x="13" y="4" width="7" height="7"/><rect x="4" y="13" width="7" height="7"/><rect x="13" y="13" width="7" height="7"/></svg></div>
+      Chunk and tag
+    </div>
+    <div class="step-card">
+      <div class="step-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3 6 6 1-4.5 4.5L18 20l-6-3-6 3 1.5-6.5L3 9l6-1z"/></svg></div>
+      Embed and index
+    </div>
+    <div class="step-card">
+      <div class="step-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4M12 3l8 4v5c0 5-3.5 8.5-8 9-4.5-.5-8-4-8-9V7l8-4z"/></svg></div>
+      Ground and cite
+    </div>
+  </div>
+
+  <div class="cited-banner">
+    <div class="cited-ring" id="citedRing">100%</div>
+    <div>
+      <h4>Every allowed answer is cited</h4>
+      <p>By design, PressIQ never returns an answer without page-level source references.</p>
+    </div>
+  </div>
+
+  <div class="about-grid-2">
+    <div class="info-card">
+      <div class="info-title">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg>
+        Data source
+      </div>
+      <p id="dataSourceText">WHO guideline for the pharmacological treatment of hypertension in adults, 2021. 61 pages.</p>
+    </div>
+    <div class="info-card">
+      <div class="info-title">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l8 4v5c0 5-3.5 8.5-8 9-4.5-.5-8-4-8-9V7l8-4z"/></svg>
+        Safety approach
+      </div>
+      <p>Low-confidence retrieval returns "insufficient evidence" instead of a guess.</p>
+    </div>
+  </div>
+
+</div>
+
+<script src="assets/js/api.js"></script>
+<script>
+(async () => {
+  try {
+    const s = await apiGet("/api/stats");
+    document.getElementById("citedRing").textContent = `${s.cited_rate}%`;
+    document.getElementById("dataSourceText").textContent =
+      `WHO guideline for the pharmacological treatment of hypertension in adults, ${s.guideline_year}. ${s.pages_indexed} pages.`;
+  } catch (e) {
+    console.warn("Stats unavailable, showing defaults.", e);
+  }
+})();
+</script>
+</body>
+</html>

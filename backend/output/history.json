@@ -1,0 +1,1483 @@
+[
+  {
+    "id": "812c9cfb-25b2-44ae-b4c0-d217accf74c6",
+    "question": "Can pharmacists or nurses provide pharmacological treatment for hypertension?",
+    "status": "Allowed",
+    "status_slug": "allowed",
+    "confidence": {
+      "score": 74,
+      "label": "High",
+      "reason": "Hybrid retrieval score 0.751; dense/lexical agreement 100%; top-result margin 0.56."
+    },
+    "answer": "\ud83c\udfaf **Direct Clinical Answer**:\n## 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS WHO suggests that pharmacological treatment of hypertension can be provided by nonphysician professionals such as pharmacists and nurses, as long as the following conditions are met: proper training, prescribing authority, specific management protocols and physician oversight.\n\n\ud83d\udc8a **Key Guidelines & Recommendations**:\n- **8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS**: ## 8.\n- **8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS**: ## 8.\n- **Scope and objectives of the hypertension guideline**: elevated on two different days.\n- **10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?**: ## 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?\n\n\u26a0\ufe0f **Considerations & Risk Factors**:\n- Always individualize therapy for comorbidities (CVD, diabetes, chronic kidney disease) and confirm the diagnosis before initiating pharmacological treatment.\n\n\ud83d\udcda **Source Evidence & Traceability**:\n- **Page 11** | *Section: 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS* | `chunk_013`\n- **Page 31** | *Section: 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS* | `chunk_053`\n- **Page 14** | *Section: Scope and objectives of the hypertension guideline* | `chunk_016`\n- **Page 59, 60** | *Section: 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?* | `chunk_111`\n- **Page 20, 21** | *Section: 3.2 Laboratory testing before and during pharmacological treatment* | `chunk_031`\n\nRetrieval confidence: 74% (High)",
+    "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+    "summary": "## 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS WHO suggests that pharmacological treatment of hypertension can be provided by nonphysician professionals such as pharmacists and nurses, as long as the following conditions are met: proper training, prescribing authority, specific management protocols and",
+    "sources": [
+      {
+        "chunk_id": "chunk_013",
+        "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+        "page_numbers": [
+          11
+        ],
+        "score": 0.751
+      },
+      {
+        "chunk_id": "chunk_053",
+        "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+        "page_numbers": [
+          31
+        ],
+        "score": 0.695
+      },
+      {
+        "chunk_id": "chunk_016",
+        "section_title": "Scope and objectives of the hypertension guideline",
+        "page_numbers": [
+          14
+        ],
+        "score": 0.669
+      },
+      {
+        "chunk_id": "chunk_111",
+        "section_title": "10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?",
+        "page_numbers": [
+          59,
+          60
+        ],
+        "score": 0.627
+      },
+      {
+        "chunk_id": "chunk_031",
+        "section_title": "3.2 Laboratory testing before and during pharmacological treatment",
+        "page_numbers": [
+          20,
+          21
+        ],
+        "score": 0.627
+      }
+    ],
+    "sources_count": 5,
+    "timestamp": 1787212882.8966227,
+    "day_label": "Today"
+  },
+  {
+    "id": "342e0400-508a-4749-9d14-6893f89d67d3",
+    "question": "\u062a\u0634\u063a\u064a\u0644 \u0645\u0634\u0631\u0648\u0639 PressIQ - \u062e\u0637\u0648\u0627\u062a \u0627\u0644\u0631\u0646 \u0643\u0627\u0645\u0644\u0629  \u0627\u0644\u0645\u0634\u0631\u0648\u0639 \u0641\u064a\u0647 \u062c\u0632\u0626\u064a\u0646: Backend (Flask API) \u0648 Frontend (\u0635\u0641\u062d\u0627\u062a HTML). \u0644\u0627\u0632\u0645 \u0627\u0644\u0627\u062a\u0646\u064a\u0646 \u064a\u0634\u062a\u063a\u0644\u0648\u0627 \u0645\u0639 \u0628\u0639\u0636\u060c \u0643\u0644 \u0648\u0627\u062d\u062f \u0641\u064a Terminal \u0645\u0646\u0641\u0635\u0644.  \u0627\u0644\u0645\u062a\u0637\u0644\u0628\u0627\u062a: - Python 3.9+ \u0645\u062b\u0628\u062a \u0639\u0644\u0649 \u0627\u0644\u062c\u0647\u0627\u0632 - \u062a\u0623\u0643\u062f \u0645\u0646: python --version \u0648 pip --version  =========================================== 1) \u062a\u0634\u063a\u064a\u0644 \u0627\u0644\u0640 Backend =========================================== \u0627\u0641\u062a\u062d Terminal (Terminal 1):  cd backend pip install -r requirements.txt python app.py  \u0644\u0648 \u0627\u0634\u062a\u063a\u0644 \u0635\u062d \u0647\u062a\u0634\u0648\u0641: Loading PressIQ hypertension RAG pipeline... Pipeline ready. XXX chunks indexed... * Running on http://0.0.0.0:5000  \u0633\u064a\u0628 \u0627\u0644\u062a\u064a\u0631\u0645\u0646\u0627\u0644 \u062f\u0647 \u0634\u063a\u0627\u0644 \u0648\u0645\u062a\u0642\u0641\u0644\u0648\u0634.  =========================================== 2) \u062a\u0634\u063a\u064a\u0644 \u0627\u0644\u0640 Frontend =========================================== \u0627\u0641\u062a\u062d Terminal \u062a\u0627\u0646\u064a (Terminal 2):  cd frontend python -m http.server 8080  \u0647\u062a\u0634\u0648\u0641: Serving HTTP on :: port 8080 ...  =========================================== 3) \u0627\u0641\u062a\u062d \u0627\u0644\u0645\u062a\u0635\u0641\u062d =========================================== http://localhost:8080/index.html  \u062c\u0631\u0651\u0628 \u0635\u0641\u062d\u0629 Chat \u0648\u0627\u0633\u0623\u0644: What is the first-line drug treatment for hypertension in adults?  =========================================== \u0645\u0644\u0627\u062d\u0638\u0627\u062a =========================================== - \u0627\u0644\u0640 Backend \u0644\u0627\u0632\u0645 \u064a\u0641\u0636\u0644 \u0634\u063a\u0627\u0644 \u0637\u0648\u0644 \u0645\u0627 \u0628\u062a\u0633\u062a\u062e\u062f\u0645 \u0627\u0644\u0645\u0648\u0642\u0639 (\u0627\u0644\u0640 Frontend \u0628\u064a\u0646\u062f\u0647 \u0639\u0644\u064a\u0647 \u0639\u0644\u0649 http://localhost:5000) - \u0644\u0648 \u062d\u0635\u0644 \u062e\u0637\u0623 CORS \u0623\u0648 \"couldn't reach backend\" \u0641\u064a \u0635\u0641\u062d\u0629 Chat\u060c \u064a\u0628\u0642\u0649 \u0627\u0644\u0640 Backend \u0645\u0634 \u0634\u063a\u0627\u0644 - \u0627\u0631\u062c\u0639 \u0644\u0640 Terminal 1 \u0648\u062a\u0623\u0643\u062f - \u0644\u0648 \u0639\u0627\u064a\u0632 \u062a\u063a\u064a\u0651\u0631 \u0627\u0644\u0628\u0648\u0631\u062a \u0628\u062a\u0627\u0639 \u0627\u0644\u0640 Backend\u060c \u063a\u064a\u0651\u0631 \u0641\u064a app.py \u0622\u062e\u0631 \u0633\u0637\u0631 (port = ...)\u060c \u0648\u0643\u0645\u0627\u0646 \u0641\u064a frontend/assets/js/api.js (API_BASE)  API Endpoints \u0627\u0644\u0645\u062a\u0627\u062d\u0629 (\u0644\u0644\u0641\u0631\u064a\u0642 \u0627\u0644\u0644\u064a \u0647\u064a\u0634\u062a\u063a\u0644 \u0639\u0644\u0649 \u0627\u0644\u0628\u0627\u0643 \u0625\u0646\u062f): - GET  /api/health          -> \u0641\u062d\u0635 \u0625\u0646",
+    "status": "Refused",
+    "status_slug": "refused",
+    "confidence": {
+      "score": 46,
+      "label": "Low",
+      "reason": "Hybrid retrieval score 0.468; dense/lexical agreement 40%; top-result margin 0.25."
+    },
+    "answer": "Insufficient evidence in the provided guideline. This guideline covers hypertension pharmacological treatment only.",
+    "section_title": null,
+    "summary": null,
+    "sources": [],
+    "sources_count": 0,
+    "timestamp": 1787212877.7547793,
+    "day_label": "Today"
+  },
+  {
+    "id": "7729cbab-30db-46b0-8270-2cfdd58a28e4",
+    "question": "What lifestyle advice is recommended for hypertension?",
+    "status": "Needs Caution",
+    "status_slug": "needs_caution",
+    "confidence": {
+      "score": 56,
+      "label": "Moderate",
+      "reason": "Hybrid retrieval score 0.586; dense/lexical agreement 80%; top-result margin 0.07."
+    },
+    "answer": "\ud83c\udfaf **Direct Clinical Answer**:\n##### Scope and objectives of the hypertension guideline The 2021 WHO hypertension guideline aims to provide the most current and relevant evidence-based global public health guidance on the initiation of treatment (with pharmacological agents) for hypertension in adults. The recommendations target the general adult, non-pregnant, hypertensive population.\n\n\ud83d\udc8a **Key Guidelines & Recommendations**:\n- **Scope and objectives of the hypertension guideline**: ##### Scope and objectives of the hypertension guideline The 2021 WHO hypertension guideline aims to provide the most current and relevant evidence-based global public health guidance on the initiation of treatment (with pharmacological agents) for hypertension in adults.\n- **Scope and objectives of the hypertension guideline**: elevated on two different days.\n- **4.3 Pregnancy and hypertension**: ### 4.3 Pregnancy and hypertension Hypertension, including chronic HTN, gestational HTN, pre-eclampsia, and eclampsia, is a very common medical condition in pregnancy (99).\n- **2. RECOMMENDATION ON LABORATORY TESTING**: ## 2.\n\n\u26a0\ufe0f **Considerations & Risk Factors**:\n- Always individualize therapy for comorbidities (CVD, diabetes, chronic kidney disease) and confirm the diagnosis before initiating pharmacological treatment.\n\n\ud83d\udcda **Source Evidence & Traceability**:\n- **Page 13, 14** | *Section: Scope and objectives of the hypertension guideline* | `chunk_015`\n- **Page 14** | *Section: Scope and objectives of the hypertension guideline* | `chunk_016`\n- **Page 34, 35** | *Section: 4.3 Pregnancy and hypertension* | `chunk_061`\n- **Page 10** | *Section: 2. RECOMMENDATION ON LABORATORY TESTING* | `chunk_007`\n- **Page 14** | *Section: Secondary audience* | `chunk_019`\n\nRetrieval confidence: 56% (Moderate)",
+    "section_title": "Scope and objectives of the hypertension guideline",
+    "summary": "##### Scope and objectives of the hypertension guideline The 2021 WHO hypertension guideline aims to provide the most current and relevant evidence-based global public health guidance on the initiation of treatment (with pharmacological agents) for hypertension in adults. The recommendations target the general adult, n",
+    "sources": [
+      {
+        "chunk_id": "chunk_015",
+        "section_title": "Scope and objectives of the hypertension guideline",
+        "page_numbers": [
+          13,
+          14
+        ],
+        "score": 0.586
+      },
+      {
+        "chunk_id": "chunk_016",
+        "section_title": "Scope and objectives of the hypertension guideline",
+        "page_numbers": [
+          14
+        ],
+        "score": 0.579
+      },
+      {
+        "chunk_id": "chunk_061",
+        "section_title": "4.3 Pregnancy and hypertension",
+        "page_numbers": [
+          34,
+          35
+        ],
+        "score": 0.536
+      },
+      {
+        "chunk_id": "chunk_007",
+        "section_title": "2. RECOMMENDATION ON LABORATORY TESTING",
+        "page_numbers": [
+          10
+        ],
+        "score": 0.446
+      },
+      {
+        "chunk_id": "chunk_019",
+        "section_title": "Secondary audience",
+        "page_numbers": [
+          14
+        ],
+        "score": 0.406
+      }
+    ],
+    "sources_count": 5,
+    "timestamp": 1787212219.6859188,
+    "day_label": "Today"
+  },
+  {
+    "id": "b0aeb8e4-0a8d-4f8e-a8d1-4899a243a48b",
+    "question": "What is the first-line drug treatment for hypertension in adults?",
+    "status": "Allowed",
+    "status_slug": "allowed",
+    "confidence": {
+      "score": 76,
+      "label": "High",
+      "reason": "Hybrid retrieval score 0.807; dense/lexical agreement 100%; top-result margin 0.03."
+    },
+    "answer": "\ud83c\udfaf **Direct Clinical Answer**:\n##### Scope and objectives of the hypertension guideline The 2021 WHO hypertension guideline aims to provide the most current and relevant evidence-based global public health guidance on the initiation of treatment (with pharmacological agents) for hypertension in adults. The recommendations target the general adult, non-pregnant, hypertensive population.\n\n\ud83d\udc8a **Key Guidelines & Recommendations**:\n- **Scope and objectives of the hypertension guideline**: ##### Scope and objectives of the hypertension guideline The 2021 WHO hypertension guideline aims to provide the most current and relevant evidence-based global public health guidance on the initiation of treatment (with pharmacological agents) for hypertension in adults.\n- **4. RECOMMENDATION ON DRUG CLASSES TO BE USED AS FIRST-LINE AGENTS**: ## 4.\n- **2 Is any laboratory testing necessary prior to initiation or during titration of pharmacological treatments**: ## 2 Is any laboratory testing necessary prior to initiation or during titration of pharmacological treatments P Adult men and women requiring antihypertensive treatment I Initiation or titration of antihypertensives without lab tests C Initiation or titration of antihypertensives with lab tests O Death (all-cause mortality), cardiovascular death (death from MI, sudden cardiac death or stroke), stroke, myocardial infarction, end-stage renal disease and heart failure events, cognitive impairment/decline control to control BP effects satisfaction s Individual drugs and doses with no comorbidities blood pressure of lab test (ECG, blood, etc) 3 Should cardiovascular risk assessment be used to guide initiation of antihypertensive medications?\n- **Algorithm 1: Initiation of treatment with a single-pill combination**: ##### Algorithm 1: Initiation of treatment with a single-pill combination - Beginning treatment with two antihypertensive drugs from different classes is recommended when baseline BP is \u2265 20/10 mmHg above goal, and should be considered when baseline BP is \u2265 140/90 mmHg.\n\n\u26a0\ufe0f **Considerations & Risk Factors**:\n- Always individualize therapy for comorbidities (CVD, diabetes, chronic kidney disease) and confirm the diagnosis before initiating pharmacological treatment.\n\n\ud83d\udcda **Source Evidence & Traceability**:\n- **Page 13, 14** | *Section: Scope and objectives of the hypertension guideline* | `chunk_015`\n- **Page 10, 23** | *Section: 4. RECOMMENDATION ON DRUG CLASSES TO BE USED AS FIRST-LINE AGENTS* | `chunk_009`\n- **Page 56, 57** | *Section: 2 Is any laboratory testing necessary prior to initiation or during titration of pharmacological treatments* | `chunk_107`\n- **Page 40, 41** | *Section: Algorithm 1: Initiation of treatment with a single-pill combination* | `chunk_080`\n- **Page 44, 45** | *Section: References* | `chunk_087`\n\nRetrieval confidence: 76% (High)",
+    "section_title": "Scope and objectives of the hypertension guideline",
+    "summary": "##### Scope and objectives of the hypertension guideline The 2021 WHO hypertension guideline aims to provide the most current and relevant evidence-based global public health guidance on the initiation of treatment (with pharmacological agents) for hypertension in adults. The recommendations target the general adult, n",
+    "sources": [
+      {
+        "chunk_id": "chunk_015",
+        "section_title": "Scope and objectives of the hypertension guideline",
+        "page_numbers": [
+          13,
+          14
+        ],
+        "score": 0.807
+      },
+      {
+        "chunk_id": "chunk_009",
+        "section_title": "4. RECOMMENDATION ON DRUG CLASSES TO BE USED AS FIRST-LINE AGENTS",
+        "page_numbers": [
+          10,
+          23
+        ],
+        "score": 0.804
+      },
+      {
+        "chunk_id": "chunk_107",
+        "section_title": "2 Is any laboratory testing necessary prior to initiation or during titration of pharmacological treatments",
+        "page_numbers": [
+          56,
+          57
+        ],
+        "score": 0.726
+      },
+      {
+        "chunk_id": "chunk_080",
+        "section_title": "Algorithm 1: Initiation of treatment with a single-pill combination",
+        "page_numbers": [
+          40,
+          41
+        ],
+        "score": 0.703
+      },
+      {
+        "chunk_id": "chunk_087",
+        "section_title": "References",
+        "page_numbers": [
+          44,
+          45
+        ],
+        "score": 0.693
+      }
+    ],
+    "sources_count": 5,
+    "timestamp": 1787212219.4054692,
+    "day_label": "Today"
+  },
+  {
+    "id": "8b4a5ddd-98df-44b2-81d5-2051a740c6ff",
+    "question": "What target blood pressure should adults with hypertension aim for?",
+    "status": "Allowed",
+    "status_slug": "allowed",
+    "confidence": {
+      "score": 70,
+      "label": "High",
+      "reason": "Hybrid retrieval score 0.742; dense/lexical agreement 100%; top-result margin 0.12."
+    },
+    "answer": "\ud83c\udfaf **Direct Clinical Answer**:\n## 9 What target blood pressure should pharmacological treatment aim to achieve? P Adult men and women I Specific systolic and diastolic blood pressure targets: (mmHg): < 120, < 130, < 140, < 150 (mmHg): < 70, < 80, < 90 C Systolic or diastolic blood pressure targets that are higher than the intervention targets O Death (all-cause mortality), cardiovascular death (death from MI, sudden cardiac death or stroke), stroke, myocardial infarction, end-stage renal disease heart failure events, cognitive impairment/dementia, and adverse events s Based on different effect modifiers such pre-existing CAD, stroke, diabetes, age, sex, chronic kidney disease and race/ethnicity\n\n\ud83d\udc8a **Key Guidelines & Recommendations**:\n- **9 What target blood pressure should pharmacological treatment aim to achieve?**: ## 9 What target blood pressure should pharmacological treatment aim to achieve?\n- **3.6 Target blood pressure**: ### 3.6 Target blood pressure 6.\n- **6. RECOMMENDATIONS ON TARGET BLOOD PRESSURE**: ## 6.\n- **10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?**: ## 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?\n\n\u26a0\ufe0f **Considerations & Risk Factors**:\n- Always individualize therapy for comorbidities (CVD, diabetes, chronic kidney disease) and confirm the diagnosis before initiating pharmacological treatment.\n\n\ud83d\udcda **Source Evidence & Traceability**:\n- **Page 59** | *Section: 9 What target blood pressure should pharmacological treatment aim to achieve?* | `chunk_110`\n- **Page 28** | *Section: 3.6 Target blood pressure* | `chunk_047`\n- **Page 10, 11** | *Section: 6. RECOMMENDATIONS ON TARGET BLOOD PRESSURE* | `chunk_011`\n- **Page 59, 60** | *Section: 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?* | `chunk_111`\n- **Page 25, 26** | *Section: 5. RECOMMENDATION ON COMBINATION THERAPY* | `chunk_042`\n\nRetrieval confidence: 70% (High)",
+    "section_title": "9 What target blood pressure should pharmacological treatment aim to achieve?",
+    "summary": "## 9 What target blood pressure should pharmacological treatment aim to achieve? P Adult men and women I Specific systolic and diastolic blood pressure targets: (mmHg): < 120, < 130, < 140, < 150 (mmHg): < 70, < 80, < 90 C Systolic or diastolic blood pressure targets that are higher than the intervention targets O Deat",
+    "sources": [
+      {
+        "chunk_id": "chunk_110",
+        "section_title": "9 What target blood pressure should pharmacological treatment aim to achieve?",
+        "page_numbers": [
+          59
+        ],
+        "score": 0.742
+      },
+      {
+        "chunk_id": "chunk_047",
+        "section_title": "3.6 Target blood pressure",
+        "page_numbers": [
+          28
+        ],
+        "score": 0.73
+      },
+      {
+        "chunk_id": "chunk_011",
+        "section_title": "6. RECOMMENDATIONS ON TARGET BLOOD PRESSURE",
+        "page_numbers": [
+          10,
+          11
+        ],
+        "score": 0.719
+      },
+      {
+        "chunk_id": "chunk_111",
+        "section_title": "10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?",
+        "page_numbers": [
+          59,
+          60
+        ],
+        "score": 0.687
+      },
+      {
+        "chunk_id": "chunk_042",
+        "section_title": "5. RECOMMENDATION ON COMBINATION THERAPY",
+        "page_numbers": [
+          25,
+          26
+        ],
+        "score": 0.654
+      }
+    ],
+    "sources_count": 5,
+    "timestamp": 1787212219.136187,
+    "day_label": "Today"
+  },
+  {
+    "id": "b2ad402f-b843-48fa-a7f8-8445e55e6be3",
+    "question": "What is the first-line drug treatment for hypertension in adults?",
+    "status": "Allowed",
+    "status_slug": "allowed",
+    "confidence": {
+      "score": 76,
+      "label": "High",
+      "reason": "Hybrid retrieval score 0.807; dense/lexical agreement 100%; top-result margin 0.03."
+    },
+    "answer": "\ud83c\udfaf **Direct Clinical Answer**:\n##### Scope and objectives of the hypertension guideline The 2021 WHO hypertension guideline aims to provide the most current and relevant evidence-based global public health guidance on the initiation of treatment (with pharmacological agents) for hypertension in adults. The recommendations target the general adult, non-pregnant, hypertensive population.\n\n\ud83d\udc8a **Key Guidelines & Recommendations**:\n- **Scope and objectives of the hypertension guideline**: ##### Scope and objectives of the hypertension guideline The 2021 WHO hypertension guideline aims to provide the most current and relevant evidence-based global public health guidance on the initiation of treatment (with pharmacological agents) for hypertension in adults.\n- **4. RECOMMENDATION ON DRUG CLASSES TO BE USED AS FIRST-LINE AGENTS**: ## 4.\n- **2 Is any laboratory testing necessary prior to initiation or during titration of pharmacological treatments**: ## 2 Is any laboratory testing necessary prior to initiation or during titration of pharmacological treatments P Adult men and women requiring antihypertensive treatment I Initiation or titration of antihypertensives without lab tests C Initiation or titration of antihypertensives with lab tests O Death (all-cause mortality), cardiovascular death (death from MI, sudden cardiac death or stroke), stroke, myocardial infarction, end-stage renal disease and heart failure events, cognitive impairment/decline control to control BP effects satisfaction s Individual drugs and doses with no comorbidities blood pressure of lab test (ECG, blood, etc) 3 Should cardiovascular risk assessment be used to guide initiation of antihypertensive medications?\n- **Algorithm 1: Initiation of treatment with a single-pill combination**: ##### Algorithm 1: Initiation of treatment with a single-pill combination - Beginning treatment with two antihypertensive drugs from different classes is recommended when baseline BP is \u2265 20/10 mmHg above goal, and should be considered when baseline BP is \u2265 140/90 mmHg.\n\n\u26a0\ufe0f **Considerations & Risk Factors**:\n- Always individualize therapy for comorbidities (CVD, diabetes, chronic kidney disease) and confirm the diagnosis before initiating pharmacological treatment.\n\n\ud83d\udcda **Source Evidence & Traceability**:\n- **Page 13, 14** | *Section: Scope and objectives of the hypertension guideline* | `chunk_015`\n- **Page 10, 23** | *Section: 4. RECOMMENDATION ON DRUG CLASSES TO BE USED AS FIRST-LINE AGENTS* | `chunk_009`\n- **Page 56, 57** | *Section: 2 Is any laboratory testing necessary prior to initiation or during titration of pharmacological treatments* | `chunk_107`\n- **Page 40, 41** | *Section: Algorithm 1: Initiation of treatment with a single-pill combination* | `chunk_080`\n- **Page 44, 45** | *Section: References* | `chunk_087`\n\nRetrieval confidence: 76% (High)",
+    "section_title": "Scope and objectives of the hypertension guideline",
+    "summary": "##### Scope and objectives of the hypertension guideline The 2021 WHO hypertension guideline aims to provide the most current and relevant evidence-based global public health guidance on the initiation of treatment (with pharmacological agents) for hypertension in adults. The recommendations target the general adult, n",
+    "sources": [
+      {
+        "chunk_id": "chunk_015",
+        "section_title": "Scope and objectives of the hypertension guideline",
+        "page_numbers": [
+          13,
+          14
+        ],
+        "score": 0.807
+      },
+      {
+        "chunk_id": "chunk_009",
+        "section_title": "4. RECOMMENDATION ON DRUG CLASSES TO BE USED AS FIRST-LINE AGENTS",
+        "page_numbers": [
+          10,
+          23
+        ],
+        "score": 0.804
+      },
+      {
+        "chunk_id": "chunk_107",
+        "section_title": "2 Is any laboratory testing necessary prior to initiation or during titration of pharmacological treatments",
+        "page_numbers": [
+          56,
+          57
+        ],
+        "score": 0.726
+      },
+      {
+        "chunk_id": "chunk_080",
+        "section_title": "Algorithm 1: Initiation of treatment with a single-pill combination",
+        "page_numbers": [
+          40,
+          41
+        ],
+        "score": 0.703
+      },
+      {
+        "chunk_id": "chunk_087",
+        "section_title": "References",
+        "page_numbers": [
+          44,
+          45
+        ],
+        "score": 0.693
+      }
+    ],
+    "sources_count": 5,
+    "timestamp": 1787212218.3815072,
+    "day_label": "Today"
+  },
+  {
+    "id": "0bb7a7bd-4c2f-4a46-b48c-fec7a4cdf814",
+    "question": "What target blood pressure should adults with hypertension aim for?",
+    "status": "Allowed",
+    "status_slug": "allowed",
+    "confidence": {
+      "score": 70,
+      "label": "High",
+      "reason": "Hybrid retrieval score 0.742; dense/lexical agreement 100%; top-result margin 0.12."
+    },
+    "answer": "\ud83c\udfaf **Direct Clinical Answer**:\n## 9 What target blood pressure should pharmacological treatment aim to achieve? P Adult men and women I Specific systolic and diastolic blood pressure targets: (mmHg): < 120, < 130, < 140, < 150 (mmHg): < 70, < 80, < 90 C Systolic or diastolic blood pressure targets that are higher than the intervention targets O Death (all-cause mortality), cardiovascular death (death from MI, sudden cardiac death or stroke), stroke, myocardial infarction, end-stage renal disease heart failure events, cognitive impairment/dementia, and adverse events s Based on different effect modifiers such pre-existing CAD, stroke, diabetes, age, sex, chronic kidney disease and race/ethnicity\n\n\ud83d\udc8a **Key Guidelines & Recommendations**:\n- **9 What target blood pressure should pharmacological treatment aim to achieve?**: ## 9 What target blood pressure should pharmacological treatment aim to achieve?\n- **3.6 Target blood pressure**: ### 3.6 Target blood pressure 6.\n- **6. RECOMMENDATIONS ON TARGET BLOOD PRESSURE**: ## 6.\n- **10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?**: ## 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?\n\n\u26a0\ufe0f **Considerations & Risk Factors**:\n- Always individualize therapy for comorbidities (CVD, diabetes, chronic kidney disease) and confirm the diagnosis before initiating pharmacological treatment.\n\n\ud83d\udcda **Source Evidence & Traceability**:\n- **Page 59** | *Section: 9 What target blood pressure should pharmacological treatment aim to achieve?* | `chunk_110`\n- **Page 28** | *Section: 3.6 Target blood pressure* | `chunk_047`\n- **Page 10, 11** | *Section: 6. RECOMMENDATIONS ON TARGET BLOOD PRESSURE* | `chunk_011`\n- **Page 59, 60** | *Section: 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?* | `chunk_111`\n- **Page 25, 26** | *Section: 5. RECOMMENDATION ON COMBINATION THERAPY* | `chunk_042`\n\nRetrieval confidence: 70% (High)",
+    "section_title": "9 What target blood pressure should pharmacological treatment aim to achieve?",
+    "summary": "## 9 What target blood pressure should pharmacological treatment aim to achieve? P Adult men and women I Specific systolic and diastolic blood pressure targets: (mmHg): < 120, < 130, < 140, < 150 (mmHg): < 70, < 80, < 90 C Systolic or diastolic blood pressure targets that are higher than the intervention targets O Deat",
+    "sources": [
+      {
+        "chunk_id": "chunk_110",
+        "section_title": "9 What target blood pressure should pharmacological treatment aim to achieve?",
+        "page_numbers": [
+          59
+        ],
+        "score": 0.742
+      },
+      {
+        "chunk_id": "chunk_047",
+        "section_title": "3.6 Target blood pressure",
+        "page_numbers": [
+          28
+        ],
+        "score": 0.73
+      },
+      {
+        "chunk_id": "chunk_011",
+        "section_title": "6. RECOMMENDATIONS ON TARGET BLOOD PRESSURE",
+        "page_numbers": [
+          10,
+          11
+        ],
+        "score": 0.719
+      },
+      {
+        "chunk_id": "chunk_111",
+        "section_title": "10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?",
+        "page_numbers": [
+          59,
+          60
+        ],
+        "score": 0.687
+      },
+      {
+        "chunk_id": "chunk_042",
+        "section_title": "5. RECOMMENDATION ON COMBINATION THERAPY",
+        "page_numbers": [
+          25,
+          26
+        ],
+        "score": 0.654
+      }
+    ],
+    "sources_count": 5,
+    "timestamp": 1787212217.8716073,
+    "day_label": "Today"
+  },
+  {
+    "id": "197311b2-07f7-4763-b30e-596190ab2ff9",
+    "question": "What is the number of google?",
+    "status": "Needs Caution",
+    "status_slug": "needs_caution",
+    "confidence": {
+      "score": 61,
+      "label": "Moderate",
+      "reason": "Hybrid retrieval score 0.614; dense/lexical agreement 100%; top-result margin 0.21."
+    },
+    "answer": "\ud83c\udfaf **Direct Clinical Answer**:\nquestions about the role of the RAAS in the pathogenesis and possible treatment of COVID-19 and other coronavirus-based diseases is urgently needed. Prospective studies - in particular, ongoing randomized, placebo-controlled trials such as the Ramipril for the Treatment of COVID-19 (RAMIC) trial (ClinicalTrials.gov number, NCT04366050) may provide clearer insight regarding the effect of ACEis or ARBs in patients with COVID-19.\n\n\ud83d\udc8a **Key Guidelines & Recommendations**:\n- **4.2 COVID-19 and hypertension**: questions about the role of the RAAS in the pathogenesis and possible treatment of COVID-19 and other coronavirus-based diseases is urgently needed.\n- **5.3 Evaluation**: ### 5.3 Evaluation WHO will monitor uptake and implementation of the guideline in national policies and programmes by reviewing the number of countries that have adapted or endorsed the guideline nationally.\n- **3.1 Blood pressure threshold for initiation of pharmacological treatment**: ### 3.1 Blood pressure threshold for initiation of pharmacological treatment 1.\n- **1 Introduction**: ## 1 Introduction More people die each year from cardiovascular diseases than from any other cause.\n\n\u26a0\ufe0f **Considerations & Risk Factors**:\n- Always individualize therapy for comorbidities (CVD, diabetes, chronic kidney disease) and confirm the diagnosis before initiating pharmacological treatment.\n\n\ud83d\udcda **Source Evidence & Traceability**:\n- **Page 34** | *Section: 4.2 COVID-19 and hypertension* | `chunk_060`\n- **Page 36** | *Section: 5.3 Evaluation* | `chunk_067`\n- **Page 19** | *Section: 3.1 Blood pressure threshold for initiation of pharmacological treatment* | `chunk_028`\n- **Page 13** | *Section: 1 Introduction* | `chunk_014`\n- **Page 22** | *Section: 3. RECOMMENDATION ON CARDIOVASCULAR DISEASE RISK ASSESSMENT* | `chunk_034`\n\nRetrieval confidence: 61% (Moderate)",
+    "section_title": "4.2 COVID-19 and hypertension",
+    "summary": "questions about the role of the RAAS in the pathogenesis and possible treatment of COVID-19 and other coronavirus-based diseases is urgently needed. Prospective studies - in particular, ongoing randomized, placebo-controlled trials such as the Ramipril for the Treatment of COVID-19 (RAMIC) trial (ClinicalTrials.gov num",
+    "sources": [
+      {
+        "chunk_id": "chunk_060",
+        "section_title": "4.2 COVID-19 and hypertension",
+        "page_numbers": [
+          34
+        ],
+        "score": 0.614
+      },
+      {
+        "chunk_id": "chunk_067",
+        "section_title": "5.3 Evaluation",
+        "page_numbers": [
+          36
+        ],
+        "score": 0.593
+      },
+      {
+        "chunk_id": "chunk_028",
+        "section_title": "3.1 Blood pressure threshold for initiation of pharmacological treatment",
+        "page_numbers": [
+          19
+        ],
+        "score": 0.591
+      },
+      {
+        "chunk_id": "chunk_014",
+        "section_title": "1 Introduction",
+        "page_numbers": [
+          13
+        ],
+        "score": 0.59
+      },
+      {
+        "chunk_id": "chunk_034",
+        "section_title": "3. RECOMMENDATION ON CARDIOVASCULAR DISEASE RISK ASSESSMENT",
+        "page_numbers": [
+          22
+        ],
+        "score": 0.586
+      }
+    ],
+    "sources_count": 5,
+    "timestamp": 1787212163.587112,
+    "day_label": "Today"
+  },
+  {
+    "id": "9f98b355-13d6-4cbb-bd9d-13933bf84297",
+    "question": "\u0627\u0647\u0644\u0627",
+    "status": "Refused",
+    "status_slug": "refused",
+    "confidence": {
+      "score": 30,
+      "label": "Low",
+      "reason": "Hybrid retrieval score 0.325; dense/lexical agreement 0%; top-result margin 0.00."
+    },
+    "answer": "Insufficient evidence in the provided guideline. This guideline covers hypertension pharmacological treatment only.",
+    "section_title": null,
+    "summary": null,
+    "sources": [],
+    "sources_count": 0,
+    "timestamp": 1787212132.2002268,
+    "day_label": "Today"
+  },
+  {
+    "id": "925af888-9a20-4eb1-b85e-b5a5c3152c3e",
+    "question": "\u0628\u0633 \u0628\u0633",
+    "status": "Refused",
+    "status_slug": "refused",
+    "confidence": {
+      "score": 30,
+      "label": "Low",
+      "reason": "Hybrid retrieval score 0.325; dense/lexical agreement 0%; top-result margin 0.00."
+    },
+    "answer": "Insufficient evidence in the provided guideline. This guideline covers hypertension pharmacological treatment only.",
+    "section_title": null,
+    "summary": null,
+    "sources": [],
+    "sources_count": 0,
+    "timestamp": 1787212124.6374712,
+    "day_label": "Today"
+  },
+  {
+    "id": "b778bd8d-e575-4d8f-92da-45224acaa6a3",
+    "question": "Can pharmacists or nurses provide pharmacological treatment for hypertension?",
+    "status": "Allowed",
+    "status_slug": "allowed",
+    "confidence": {
+      "score": 74,
+      "label": "High",
+      "reason": "Hybrid retrieval score 0.751; dense/lexical agreement 100%; top-result margin 0.56."
+    },
+    "answer": "\ud83c\udfaf **Direct Clinical Answer**:\n## 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS WHO suggests that pharmacological treatment of hypertension can be provided by nonphysician professionals such as pharmacists and nurses, as long as the following conditions are met: proper training, prescribing authority, specific management protocols and physician oversight.\n\n\ud83d\udc8a **Key Guidelines & Recommendations**:\n- **8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS**: ## 8.\n- **8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS**: ## 8.\n- **Scope and objectives of the hypertension guideline**: elevated on two different days.\n- **10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?**: ## 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?\n\n\u26a0\ufe0f **Considerations & Risk Factors**:\n- Always individualize therapy for comorbidities (CVD, diabetes, chronic kidney disease) and confirm the diagnosis before initiating pharmacological treatment.\n\n\ud83d\udcda **Source Evidence & Traceability**:\n- **Page 11** | *Section: 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS* | `chunk_013`\n- **Page 31** | *Section: 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS* | `chunk_053`\n- **Page 14** | *Section: Scope and objectives of the hypertension guideline* | `chunk_016`\n- **Page 59, 60** | *Section: 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?* | `chunk_111`\n- **Page 20, 21** | *Section: 3.2 Laboratory testing before and during pharmacological treatment* | `chunk_031`\n\nRetrieval confidence: 74% (High)",
+    "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+    "summary": "## 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS WHO suggests that pharmacological treatment of hypertension can be provided by nonphysician professionals such as pharmacists and nurses, as long as the following conditions are met: proper training, prescribing authority, specific management protocols and",
+    "sources": [
+      {
+        "chunk_id": "chunk_013",
+        "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+        "page_numbers": [
+          11
+        ],
+        "score": 0.751
+      },
+      {
+        "chunk_id": "chunk_053",
+        "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+        "page_numbers": [
+          31
+        ],
+        "score": 0.695
+      },
+      {
+        "chunk_id": "chunk_016",
+        "section_title": "Scope and objectives of the hypertension guideline",
+        "page_numbers": [
+          14
+        ],
+        "score": 0.669
+      },
+      {
+        "chunk_id": "chunk_111",
+        "section_title": "10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?",
+        "page_numbers": [
+          59,
+          60
+        ],
+        "score": 0.627
+      },
+      {
+        "chunk_id": "chunk_031",
+        "section_title": "3.2 Laboratory testing before and during pharmacological treatment",
+        "page_numbers": [
+          20,
+          21
+        ],
+        "score": 0.627
+      }
+    ],
+    "sources_count": 5,
+    "timestamp": 1787212096.2651663,
+    "day_label": "Today"
+  },
+  {
+    "id": "50ba960b-1702-4e47-a300-b158ab9df42f",
+    "question": "Can pharmacists or nurses provide pharmacological treatment for hypertension?",
+    "status": "Allowed",
+    "status_slug": "allowed",
+    "confidence": {
+      "score": 74,
+      "label": "High",
+      "reason": "Hybrid retrieval score 0.751; dense/lexical agreement 100%; top-result margin 0.56."
+    },
+    "answer": "\ud83c\udfaf **Direct Clinical Answer**:\n## 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS WHO suggests that pharmacological treatment of hypertension can be provided by nonphysician professionals such as pharmacists and nurses, as long as the following conditions are met: proper training, prescribing authority, specific management protocols and physician oversight.\n\n\ud83d\udc8a **Key Guidelines & Recommendations**:\n- **8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS**: ## 8.\n- **8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS**: ## 8.\n- **Scope and objectives of the hypertension guideline**: elevated on two different days.\n- **10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?**: ## 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?\n\n\u26a0\ufe0f **Considerations & Risk Factors**:\n- Always individualize therapy for comorbidities (CVD, diabetes, chronic kidney disease) and confirm the diagnosis before initiating pharmacological treatment.\n\n\ud83d\udcda **Source Evidence & Traceability**:\n- **Page 11** | *Section: 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS* | `chunk_013`\n- **Page 31** | *Section: 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS* | `chunk_053`\n- **Page 14** | *Section: Scope and objectives of the hypertension guideline* | `chunk_016`\n- **Page 59, 60** | *Section: 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?* | `chunk_111`\n- **Page 20, 21** | *Section: 3.2 Laboratory testing before and during pharmacological treatment* | `chunk_031`\n\nRetrieval confidence: 74% (High)",
+    "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+    "summary": "## 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS WHO suggests that pharmacological treatment of hypertension can be provided by nonphysician professionals such as pharmacists and nurses, as long as the following conditions are met: proper training, prescribing authority, specific management protocols and",
+    "sources": [
+      {
+        "chunk_id": "chunk_013",
+        "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+        "page_numbers": [
+          11
+        ],
+        "score": 0.751
+      },
+      {
+        "chunk_id": "chunk_053",
+        "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+        "page_numbers": [
+          31
+        ],
+        "score": 0.695
+      },
+      {
+        "chunk_id": "chunk_016",
+        "section_title": "Scope and objectives of the hypertension guideline",
+        "page_numbers": [
+          14
+        ],
+        "score": 0.669
+      },
+      {
+        "chunk_id": "chunk_111",
+        "section_title": "10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?",
+        "page_numbers": [
+          59,
+          60
+        ],
+        "score": 0.627
+      },
+      {
+        "chunk_id": "chunk_031",
+        "section_title": "3.2 Laboratory testing before and during pharmacological treatment",
+        "page_numbers": [
+          20,
+          21
+        ],
+        "score": 0.627
+      }
+    ],
+    "sources_count": 5,
+    "timestamp": 1787212089.0613487,
+    "day_label": "Today"
+  },
+  {
+    "id": "57b35373-f2ca-4fe2-80df-e5c833275de8",
+    "question": "Can pharmacists or nurses provide pharmacological treatment for hypertension?",
+    "status": "Allowed",
+    "status_slug": "allowed",
+    "confidence": {
+      "score": 74,
+      "label": "High",
+      "reason": "Hybrid retrieval score 0.751; dense/lexical agreement 100%; top-result margin 0.56."
+    },
+    "answer": "\ud83c\udfaf **Direct Clinical Answer**:\n## 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS WHO suggests that pharmacological treatment of hypertension can be provided by nonphysician professionals such as pharmacists and nurses, as long as the following conditions are met: proper training, prescribing authority, specific management protocols and physician oversight.\n\n\ud83d\udc8a **Key Guidelines & Recommendations**:\n- **8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS**: ## 8.\n- **8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS**: ## 8.\n- **Scope and objectives of the hypertension guideline**: elevated on two different days.\n- **10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?**: ## 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?\n\n\u26a0\ufe0f **Considerations & Risk Factors**:\n- Always individualize therapy for comorbidities (CVD, diabetes, chronic kidney disease) and confirm the diagnosis before initiating pharmacological treatment.\n\n\ud83d\udcda **Source Evidence & Traceability**:\n- **Page 11** | *Section: 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS* | `chunk_013`\n- **Page 31** | *Section: 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS* | `chunk_053`\n- **Page 14** | *Section: Scope and objectives of the hypertension guideline* | `chunk_016`\n- **Page 59, 60** | *Section: 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?* | `chunk_111`\n- **Page 20, 21** | *Section: 3.2 Laboratory testing before and during pharmacological treatment* | `chunk_031`\n\nRetrieval confidence: 74% (High)",
+    "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+    "summary": "## 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS WHO suggests that pharmacological treatment of hypertension can be provided by nonphysician professionals such as pharmacists and nurses, as long as the following conditions are met: proper training, prescribing authority, specific management protocols and",
+    "sources": [
+      {
+        "chunk_id": "chunk_013",
+        "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+        "page_numbers": [
+          11
+        ],
+        "score": 0.751
+      },
+      {
+        "chunk_id": "chunk_053",
+        "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+        "page_numbers": [
+          31
+        ],
+        "score": 0.695
+      },
+      {
+        "chunk_id": "chunk_016",
+        "section_title": "Scope and objectives of the hypertension guideline",
+        "page_numbers": [
+          14
+        ],
+        "score": 0.669
+      },
+      {
+        "chunk_id": "chunk_111",
+        "section_title": "10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?",
+        "page_numbers": [
+          59,
+          60
+        ],
+        "score": 0.627
+      },
+      {
+        "chunk_id": "chunk_031",
+        "section_title": "3.2 Laboratory testing before and during pharmacological treatment",
+        "page_numbers": [
+          20,
+          21
+        ],
+        "score": 0.627
+      }
+    ],
+    "sources_count": 5,
+    "timestamp": 1787212015.3394644,
+    "day_label": "Today"
+  },
+  {
+    "id": "aea90a07-7a9d-4607-af96-884342297149",
+    "question": "Can pharmacists or nurses provide pharmacological treatment for hypertension?",
+    "status": "Allowed",
+    "status_slug": "allowed",
+    "confidence": {
+      "score": 74,
+      "label": "High",
+      "reason": "Hybrid retrieval score 0.751; dense/lexical agreement 100%; top-result margin 0.56."
+    },
+    "answer": "\ud83c\udfaf **Direct Clinical Answer**:\n## 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS WHO suggests that pharmacological treatment of hypertension can be provided by nonphysician professionals such as pharmacists and nurses, as long as the following conditions are met: proper training, prescribing authority, specific management protocols and physician oversight.\n\n\ud83d\udc8a **Key Guidelines & Recommendations**:\n- **8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS**: ## 8.\n- **8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS**: ## 8.\n- **Scope and objectives of the hypertension guideline**: elevated on two different days.\n- **10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?**: ## 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?\n\n\u26a0\ufe0f **Considerations & Risk Factors**:\n- Always individualize therapy for comorbidities (CVD, diabetes, chronic kidney disease) and confirm the diagnosis before initiating pharmacological treatment.\n\n\ud83d\udcda **Source Evidence & Traceability**:\n- **Page 11** | *Section: 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS* | `chunk_013`\n- **Page 31** | *Section: 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS* | `chunk_053`\n- **Page 14** | *Section: Scope and objectives of the hypertension guideline* | `chunk_016`\n- **Page 59, 60** | *Section: 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?* | `chunk_111`\n- **Page 20, 21** | *Section: 3.2 Laboratory testing before and during pharmacological treatment* | `chunk_031`\n\nRetrieval confidence: 74% (High)",
+    "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+    "summary": "## 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS WHO suggests that pharmacological treatment of hypertension can be provided by nonphysician professionals such as pharmacists and nurses, as long as the following conditions are met: proper training, prescribing authority, specific management protocols and",
+    "sources": [
+      {
+        "chunk_id": "chunk_013",
+        "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+        "page_numbers": [
+          11
+        ],
+        "score": 0.751
+      },
+      {
+        "chunk_id": "chunk_053",
+        "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+        "page_numbers": [
+          31
+        ],
+        "score": 0.695
+      },
+      {
+        "chunk_id": "chunk_016",
+        "section_title": "Scope and objectives of the hypertension guideline",
+        "page_numbers": [
+          14
+        ],
+        "score": 0.669
+      },
+      {
+        "chunk_id": "chunk_111",
+        "section_title": "10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?",
+        "page_numbers": [
+          59,
+          60
+        ],
+        "score": 0.627
+      },
+      {
+        "chunk_id": "chunk_031",
+        "section_title": "3.2 Laboratory testing before and during pharmacological treatment",
+        "page_numbers": [
+          20,
+          21
+        ],
+        "score": 0.627
+      }
+    ],
+    "sources_count": 5,
+    "timestamp": 1787212011.6887906,
+    "day_label": "Today"
+  },
+  {
+    "id": "c8ddb2da-55ea-4ae8-a26d-91cbef9c996a",
+    "question": "Can pharmacists or nurses provide pharmacological treatment for hypertension?",
+    "status": "Allowed",
+    "status_slug": "allowed",
+    "confidence": {
+      "score": 74,
+      "label": "High",
+      "reason": "Hybrid retrieval score 0.751; dense/lexical agreement 100%; top-result margin 0.56."
+    },
+    "answer": "\ud83c\udfaf **Direct Clinical Answer**:\n## 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS WHO suggests that pharmacological treatment of hypertension can be provided by nonphysician professionals such as pharmacists and nurses, as long as the following conditions are met: proper training, prescribing authority, specific management protocols and physician oversight.\n\n\ud83d\udc8a **Key Guidelines & Recommendations**:\n- **8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS**: ## 8.\n- **8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS**: ## 8.\n- **Scope and objectives of the hypertension guideline**: elevated on two different days.\n- **10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?**: ## 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?\n\n\u26a0\ufe0f **Considerations & Risk Factors**:\n- Always individualize therapy for comorbidities (CVD, diabetes, chronic kidney disease) and confirm the diagnosis before initiating pharmacological treatment.\n\n\ud83d\udcda **Source Evidence & Traceability**:\n- **Page 11** | *Section: 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS* | `chunk_013`\n- **Page 31** | *Section: 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS* | `chunk_053`\n- **Page 14** | *Section: Scope and objectives of the hypertension guideline* | `chunk_016`\n- **Page 59, 60** | *Section: 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?* | `chunk_111`\n- **Page 20, 21** | *Section: 3.2 Laboratory testing before and during pharmacological treatment* | `chunk_031`\n\nRetrieval confidence: 74% (High)",
+    "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+    "summary": "## 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS WHO suggests that pharmacological treatment of hypertension can be provided by nonphysician professionals such as pharmacists and nurses, as long as the following conditions are met: proper training, prescribing authority, specific management protocols and",
+    "sources": [
+      {
+        "chunk_id": "chunk_013",
+        "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+        "page_numbers": [
+          11
+        ],
+        "score": 0.751
+      },
+      {
+        "chunk_id": "chunk_053",
+        "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+        "page_numbers": [
+          31
+        ],
+        "score": 0.695
+      },
+      {
+        "chunk_id": "chunk_016",
+        "section_title": "Scope and objectives of the hypertension guideline",
+        "page_numbers": [
+          14
+        ],
+        "score": 0.669
+      },
+      {
+        "chunk_id": "chunk_111",
+        "section_title": "10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?",
+        "page_numbers": [
+          59,
+          60
+        ],
+        "score": 0.627
+      },
+      {
+        "chunk_id": "chunk_031",
+        "section_title": "3.2 Laboratory testing before and during pharmacological treatment",
+        "page_numbers": [
+          20,
+          21
+        ],
+        "score": 0.627
+      }
+    ],
+    "sources_count": 5,
+    "timestamp": 1787212010.1971903,
+    "day_label": "Today"
+  },
+  {
+    "id": "6dadd622-28bb-4206-afa4-3e5c233380fe",
+    "question": "Can pharmacists or nurses provide pharmacological treatment for hypertension?",
+    "status": "Allowed",
+    "status_slug": "allowed",
+    "confidence": {
+      "score": 74,
+      "label": "High",
+      "reason": "Hybrid retrieval score 0.751; dense/lexical agreement 100%; top-result margin 0.56."
+    },
+    "answer": "\ud83c\udfaf **Direct Clinical Answer**:\n## 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS WHO suggests that pharmacological treatment of hypertension can be provided by nonphysician professionals such as pharmacists and nurses, as long as the following conditions are met: proper training, prescribing authority, specific management protocols and physician oversight.\n\n\ud83d\udc8a **Key Guidelines & Recommendations**:\n- **8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS**: ## 8.\n- **8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS**: ## 8.\n- **Scope and objectives of the hypertension guideline**: elevated on two different days.\n- **10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?**: ## 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?\n\n\u26a0\ufe0f **Considerations & Risk Factors**:\n- Always individualize therapy for comorbidities (CVD, diabetes, chronic kidney disease) and confirm the diagnosis before initiating pharmacological treatment.\n\n\ud83d\udcda **Source Evidence & Traceability**:\n- **Page 11** | *Section: 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS* | `chunk_013`\n- **Page 31** | *Section: 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS* | `chunk_053`\n- **Page 14** | *Section: Scope and objectives of the hypertension guideline* | `chunk_016`\n- **Page 59, 60** | *Section: 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?* | `chunk_111`\n- **Page 20, 21** | *Section: 3.2 Laboratory testing before and during pharmacological treatment* | `chunk_031`\n\nRetrieval confidence: 74% (High)",
+    "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+    "summary": "## 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS WHO suggests that pharmacological treatment of hypertension can be provided by nonphysician professionals such as pharmacists and nurses, as long as the following conditions are met: proper training, prescribing authority, specific management protocols and",
+    "sources": [
+      {
+        "chunk_id": "chunk_013",
+        "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+        "page_numbers": [
+          11
+        ],
+        "score": 0.751
+      },
+      {
+        "chunk_id": "chunk_053",
+        "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+        "page_numbers": [
+          31
+        ],
+        "score": 0.695
+      },
+      {
+        "chunk_id": "chunk_016",
+        "section_title": "Scope and objectives of the hypertension guideline",
+        "page_numbers": [
+          14
+        ],
+        "score": 0.669
+      },
+      {
+        "chunk_id": "chunk_111",
+        "section_title": "10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?",
+        "page_numbers": [
+          59,
+          60
+        ],
+        "score": 0.627
+      },
+      {
+        "chunk_id": "chunk_031",
+        "section_title": "3.2 Laboratory testing before and during pharmacological treatment",
+        "page_numbers": [
+          20,
+          21
+        ],
+        "score": 0.627
+      }
+    ],
+    "sources_count": 5,
+    "timestamp": 1787212007.701179,
+    "day_label": "Today"
+  },
+  {
+    "id": "b4332f9e-34a1-44cd-b110-3fc1ecabd856",
+    "question": "Can pharmacists or nurses provide pharmacological treatment for hypertension?",
+    "status": "Allowed",
+    "status_slug": "allowed",
+    "confidence": {
+      "score": 74,
+      "label": "High",
+      "reason": "Hybrid retrieval score 0.751; dense/lexical agreement 100%; top-result margin 0.56."
+    },
+    "answer": "\ud83c\udfaf **Direct Clinical Answer**:\n## 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS WHO suggests that pharmacological treatment of hypertension can be provided by nonphysician professionals such as pharmacists and nurses, as long as the following conditions are met: proper training, prescribing authority, specific management protocols and physician oversight.\n\n\ud83d\udc8a **Key Guidelines & Recommendations**:\n- **8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS**: ## 8.\n- **8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS**: ## 8.\n- **Scope and objectives of the hypertension guideline**: elevated on two different days.\n- **10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?**: ## 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?\n\n\u26a0\ufe0f **Considerations & Risk Factors**:\n- Always individualize therapy for comorbidities (CVD, diabetes, chronic kidney disease) and confirm the diagnosis before initiating pharmacological treatment.\n\n\ud83d\udcda **Source Evidence & Traceability**:\n- **Page 11** | *Section: 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS* | `chunk_013`\n- **Page 31** | *Section: 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS* | `chunk_053`\n- **Page 14** | *Section: Scope and objectives of the hypertension guideline* | `chunk_016`\n- **Page 59, 60** | *Section: 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?* | `chunk_111`\n- **Page 20, 21** | *Section: 3.2 Laboratory testing before and during pharmacological treatment* | `chunk_031`\n\nRetrieval confidence: 74% (High)",
+    "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+    "summary": "## 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS WHO suggests that pharmacological treatment of hypertension can be provided by nonphysician professionals such as pharmacists and nurses, as long as the following conditions are met: proper training, prescribing authority, specific management protocols and",
+    "sources": [
+      {
+        "chunk_id": "chunk_013",
+        "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+        "page_numbers": [
+          11
+        ],
+        "score": 0.751
+      },
+      {
+        "chunk_id": "chunk_053",
+        "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+        "page_numbers": [
+          31
+        ],
+        "score": 0.695
+      },
+      {
+        "chunk_id": "chunk_016",
+        "section_title": "Scope and objectives of the hypertension guideline",
+        "page_numbers": [
+          14
+        ],
+        "score": 0.669
+      },
+      {
+        "chunk_id": "chunk_111",
+        "section_title": "10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?",
+        "page_numbers": [
+          59,
+          60
+        ],
+        "score": 0.627
+      },
+      {
+        "chunk_id": "chunk_031",
+        "section_title": "3.2 Laboratory testing before and during pharmacological treatment",
+        "page_numbers": [
+          20,
+          21
+        ],
+        "score": 0.627
+      }
+    ],
+    "sources_count": 5,
+    "timestamp": 1787211974.6269932,
+    "day_label": "Today"
+  },
+  {
+    "id": "194d4288-c0c6-43e5-afbd-73ab7bbade89",
+    "question": "what is meant by blood pressure?",
+    "status": "Needs Caution",
+    "status_slug": "needs_caution",
+    "confidence": {
+      "score": 64,
+      "label": "Moderate",
+      "reason": "Hybrid retrieval score 0.672; dense/lexical agreement 100%; top-result margin 0.04."
+    },
+    "answer": "\ud83c\udfaf **Direct Clinical Answer**:\n### 3.6 Target blood pressure 6. RECOMMENDATION ON TARGET BLOOD PRESSURES WHO recommends a target blood pressure treatment goal of < 140/90 mmHg in all patients with hypertension without comorbidities.\n\n\ud83d\udc8a **Key Guidelines & Recommendations**:\n- **3.6 Target blood pressure**: ### 3.6 Target blood pressure 6.\n- **3.6 Target blood pressure**: well-known barriers to access to HTN care in low-income settings exist (6).\n- **10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?**: ## 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?\n- **1. RECOMMENDATION ON BLOOD PRESSURE THRESHOLD FOR INITIATION OF PHARMACOLOGICAL TREATMENT**: ## 1.\n\n\u26a0\ufe0f **Considerations & Risk Factors**:\n- Always individualize therapy for comorbidities (CVD, diabetes, chronic kidney disease) and confirm the diagnosis before initiating pharmacological treatment.\n\n\ud83d\udcda **Source Evidence & Traceability**:\n- **Page 28** | *Section: 3.6 Target blood pressure* | `chunk_047`\n- **Page 29** | *Section: 3.6 Target blood pressure* | `chunk_049`\n- **Page 59, 60** | *Section: 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?* | `chunk_111`\n- **Page 9, 10** | *Section: 1. RECOMMENDATION ON BLOOD PRESSURE THRESHOLD FOR INITIATION OF PHARMACOLOGICAL TREATMENT* | `chunk_006`\n- **Page 31** | *Section: 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS* | `chunk_053`\n\nRetrieval confidence: 64% (Moderate)",
+    "section_title": "3.6 Target blood pressure",
+    "summary": "### 3.6 Target blood pressure 6. RECOMMENDATION ON TARGET BLOOD PRESSURES WHO recommends a target blood pressure treatment goal of < 140/90 mmHg in all patients with hypertension without comorbidities. Strong recommendation, moderate-certainty evidence WHO recommends a target systolic blood pressure treatment goal of <",
+    "sources": [
+      {
+        "chunk_id": "chunk_047",
+        "section_title": "3.6 Target blood pressure",
+        "page_numbers": [
+          28
+        ],
+        "score": 0.672
+      },
+      {
+        "chunk_id": "chunk_049",
+        "section_title": "3.6 Target blood pressure",
+        "page_numbers": [
+          29
+        ],
+        "score": 0.669
+      },
+      {
+        "chunk_id": "chunk_111",
+        "section_title": "10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?",
+        "page_numbers": [
+          59,
+          60
+        ],
+        "score": 0.642
+      },
+      {
+        "chunk_id": "chunk_006",
+        "section_title": "1. RECOMMENDATION ON BLOOD PRESSURE THRESHOLD FOR INITIATION OF PHARMACOLOGICAL TREATMENT",
+        "page_numbers": [
+          9,
+          10
+        ],
+        "score": 0.637
+      },
+      {
+        "chunk_id": "chunk_053",
+        "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+        "page_numbers": [
+          31
+        ],
+        "score": 0.622
+      }
+    ],
+    "sources_count": 5,
+    "timestamp": 1787211953.3155112,
+    "day_label": "Today"
+  },
+  {
+    "id": "ea3c750f-1215-4b89-b653-e4b9ebb5b07f",
+    "question": "why",
+    "status": "Refused",
+    "status_slug": "refused",
+    "confidence": {
+      "score": 35,
+      "label": "Low",
+      "reason": "Hybrid retrieval score 0.371; dense/lexical agreement 0%; top-result margin 0.18."
+    },
+    "answer": "Insufficient evidence in the provided guideline. This guideline covers hypertension pharmacological treatment only.",
+    "section_title": null,
+    "summary": null,
+    "sources": [],
+    "sources_count": 0,
+    "timestamp": 1787211944.5982277,
+    "day_label": "Today"
+  },
+  {
+    "id": "a19e46f5-ce27-421d-9be1-185c76e07c4b",
+    "question": "AND HOW",
+    "status": "Allowed",
+    "status_slug": "allowed",
+    "confidence": {
+      "score": 79,
+      "label": "High",
+      "reason": "Hybrid retrieval score 0.799; dense/lexical agreement 100%; top-result margin 0.59."
+    },
+    "answer": "\ud83c\udfaf **Direct Clinical Answer**:\n### 4.1 Hypertension in disaster, humanitarian and emergency settings Hypertension (HTN) is seen in a range of humanitarian crises and disaster settings (natural or humanmade). This includes, but is not limited to, the wars in Syria and Iraq, the impact of the Great East Japan Earthquake and Hurricane Katrina, and the living conditions of Palestinian refugees.\n\n\ud83d\udc8a **Key Guidelines & Recommendations**:\n- **4.1 Hypertension in disaster, humanitarian and emergency settings**: ### 4.1 Hypertension in disaster, humanitarian and emergency settings Hypertension (HTN) is seen in a range of humanitarian crises and disaster settings (natural or humanmade).\n- **2.4 Reviews of evidence**: ### 2.4 Reviews of evidence their methodology as appraised by the AMSTAR (Assessing the Methodological Quality of Systematic Reviews) tool; how directly they matched the PICO questions; whether they reported sufficient information to allow for an assessment of the certainty of the evidence (e.g.\n- **Scope and objectives of the hypertension guideline**: elevated on two different days.\n- **8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS**: with cost-savings for prevention of CVD outcomes such that net costs had a median cost of USD 65/person/year, with 10 studies indicating negative or cost-savings overall.\n\n\u26a0\ufe0f **Considerations & Risk Factors**:\n- Always individualize therapy for comorbidities (CVD, diabetes, chronic kidney disease) and confirm the diagnosis before initiating pharmacological treatment.\n\n\ud83d\udcda **Source Evidence & Traceability**:\n- **Page 33** | *Section: 4.1 Hypertension in disaster, humanitarian and emergency settings* | `chunk_057`\n- **Page 16** | *Section: 2.4 Reviews of evidence* | `chunk_024`\n- **Page 14** | *Section: Scope and objectives of the hypertension guideline* | `chunk_016`\n- **Page 32** | *Section: 8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS* | `chunk_055`\n- **Page 43** | *Section: References* | `chunk_084`\n\nRetrieval confidence: 79% (High)",
+    "section_title": "4.1 Hypertension in disaster, humanitarian and emergency settings",
+    "summary": "### 4.1 Hypertension in disaster, humanitarian and emergency settings Hypertension (HTN) is seen in a range of humanitarian crises and disaster settings (natural or humanmade). This includes, but is not limited to, the wars in Syria and Iraq, the impact of the Great East Japan Earthquake and Hurricane Katrina, and the ",
+    "sources": [
+      {
+        "chunk_id": "chunk_057",
+        "section_title": "4.1 Hypertension in disaster, humanitarian and emergency settings",
+        "page_numbers": [
+          33
+        ],
+        "score": 0.799
+      },
+      {
+        "chunk_id": "chunk_024",
+        "section_title": "2.4 Reviews of evidence",
+        "page_numbers": [
+          16
+        ],
+        "score": 0.741
+      },
+      {
+        "chunk_id": "chunk_016",
+        "section_title": "Scope and objectives of the hypertension guideline",
+        "page_numbers": [
+          14
+        ],
+        "score": 0.737
+      },
+      {
+        "chunk_id": "chunk_055",
+        "section_title": "8. RECOMMENDATION ON TREATMENT BY NONPHYSICIAN PROFESSIONALS",
+        "page_numbers": [
+          32
+        ],
+        "score": 0.73
+      },
+      {
+        "chunk_id": "chunk_084",
+        "section_title": "References",
+        "page_numbers": [
+          43
+        ],
+        "score": 0.724
+      }
+    ],
+    "sources_count": 5,
+    "timestamp": 1787211935.4889252,
+    "day_label": "Today"
+  },
+  {
+    "id": "930c66cb-910f-4f5f-8e2a-4dbc4d9919c9",
+    "question": "What is the target blood pressure for adults with hypertension?",
+    "status": "Allowed",
+    "status_slug": "allowed",
+    "confidence": {
+      "score": 80,
+      "label": "High",
+      "reason": "Hybrid retrieval score 0.833; dense/lexical agreement 100%; top-result margin 0.31."
+    },
+    "answer": "\ud83c\udfaf **Direct Clinical Answer**:\n#### Executive summary More people die each year from cardiovascular diseases than from any other cause. Over three quarters of heart disease and stroke-related deaths occur in low-income and middle-income countries.\n\n\ud83d\udc8a **Key Guidelines & Recommendations**:\n- **Executive summary**: #### Executive summary More people die each year from cardiovascular diseases than from any other cause.\n- **6. RECOMMENDATIONS ON TARGET BLOOD PRESSURE**: ## 6.\n- **5. RECOMMENDATION ON COMBINATION THERAPY**: ## 5.\n- **References**: J Clin Hypertens.\n\n\u26a0\ufe0f **Considerations & Risk Factors**:\n- Always individualize therapy for comorbidities (CVD, diabetes, chronic kidney disease) and confirm the diagnosis before initiating pharmacological treatment.\n\n\ud83d\udcda **Source Evidence & Traceability**:\n- **Page 9** | *Section: Executive summary* | `chunk_004`\n- **Page 10, 11** | *Section: 6. RECOMMENDATIONS ON TARGET BLOOD PRESSURE* | `chunk_011`\n- **Page 25, 26** | *Section: 5. RECOMMENDATION ON COMBINATION THERAPY* | `chunk_042`\n- **Page 45, 46** | *Section: References* | `chunk_089`\n- **Page 59** | *Section: 9 What target blood pressure should pharmacological treatment aim to achieve?* | `chunk_110`\n\nRetrieval confidence: 80% (High)",
+    "section_title": "Executive summary",
+    "summary": "#### Executive summary More people die each year from cardiovascular diseases than from any other cause. Over three quarters of heart disease and stroke-related deaths occur in low-income and middle-income countries. Hypertension - or elevated blood pressure - is a serious medical condition that significantly increases",
+    "sources": [
+      {
+        "chunk_id": "chunk_004",
+        "section_title": "Executive summary",
+        "page_numbers": [
+          9
+        ],
+        "score": 0.833
+      },
+      {
+        "chunk_id": "chunk_011",
+        "section_title": "6. RECOMMENDATIONS ON TARGET BLOOD PRESSURE",
+        "page_numbers": [
+          10,
+          11
+        ],
+        "score": 0.802
+      },
+      {
+        "chunk_id": "chunk_042",
+        "section_title": "5. RECOMMENDATION ON COMBINATION THERAPY",
+        "page_numbers": [
+          25,
+          26
+        ],
+        "score": 0.743
+      },
+      {
+        "chunk_id": "chunk_089",
+        "section_title": "References",
+        "page_numbers": [
+          45,
+          46
+        ],
+        "score": 0.736
+      },
+      {
+        "chunk_id": "chunk_110",
+        "section_title": "9 What target blood pressure should pharmacological treatment aim to achieve?",
+        "page_numbers": [
+          59
+        ],
+        "score": 0.717
+      }
+    ],
+    "sources_count": 5,
+    "timestamp": 1787211884.5972154,
+    "day_label": "Today"
+  },
+  {
+    "id": "1985c7d8-9b33-4d84-8f62-7402152e1c04",
+    "question": "What is the normal blood pressure for adult persons?",
+    "status": "Needs Caution",
+    "status_slug": "needs_caution",
+    "confidence": {
+      "score": 65,
+      "label": "Moderate",
+      "reason": "Hybrid retrieval score 0.670; dense/lexical agreement 100%; top-result margin 0.16."
+    },
+    "answer": "\ud83c\udfaf **Direct Clinical Answer**:\n### 3.1 Blood pressure threshold for initiation of pharmacological treatment 1. RECOMMENDATION ON BLOOD PRESSURE THRESHOLD FOR INITIATION OF PHARMACOLOGICAL TREATMENT WHO recommends initiation of pharmacological antihypertensive treatment of individuals with a confirmed diagnosis of hypertension and systolic blood pressure of \u2265 140 mmHg or diastolic blood pressure of \u2265 90 mmHg.\n\n\ud83d\udc8a **Key Guidelines & Recommendations**:\n- **3.1 Blood pressure threshold for initiation of pharmacological treatment**: ### 3.1 Blood pressure threshold for initiation of pharmacological treatment 1.\n- **9 What target blood pressure should pharmacological treatment aim to achieve?**: ## 9 What target blood pressure should pharmacological treatment aim to achieve?\n- **10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?**: ## 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?\n- **Executive summary**: #### Executive summary More people die each year from cardiovascular diseases than from any other cause.\n\n\u26a0\ufe0f **Considerations & Risk Factors**:\n- Always individualize therapy for comorbidities (CVD, diabetes, chronic kidney disease) and confirm the diagnosis before initiating pharmacological treatment.\n\n\ud83d\udcda **Source Evidence & Traceability**:\n- **Page 19** | *Section: 3.1 Blood pressure threshold for initiation of pharmacological treatment* | `chunk_028`\n- **Page 59** | *Section: 9 What target blood pressure should pharmacological treatment aim to achieve?* | `chunk_110`\n- **Page 59, 60** | *Section: 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?* | `chunk_111`\n- **Page 9** | *Section: Executive summary* | `chunk_004`\n- **Page 43, 44** | *Section: References* | `chunk_085`\n\nRetrieval confidence: 65% (Moderate)",
+    "section_title": "3.1 Blood pressure threshold for initiation of pharmacological treatment",
+    "summary": "### 3.1 Blood pressure threshold for initiation of pharmacological treatment 1. RECOMMENDATION ON BLOOD PRESSURE THRESHOLD FOR INITIATION OF PHARMACOLOGICAL TREATMENT WHO recommends initiation of pharmacological antihypertensive treatment of individuals with a confirmed diagnosis of hypertension and systolic blood pres",
+    "sources": [
+      {
+        "chunk_id": "chunk_028",
+        "section_title": "3.1 Blood pressure threshold for initiation of pharmacological treatment",
+        "page_numbers": [
+          19
+        ],
+        "score": 0.67
+      },
+      {
+        "chunk_id": "chunk_110",
+        "section_title": "9 What target blood pressure should pharmacological treatment aim to achieve?",
+        "page_numbers": [
+          59
+        ],
+        "score": 0.653
+      },
+      {
+        "chunk_id": "chunk_111",
+        "section_title": "10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?",
+        "page_numbers": [
+          59,
+          60
+        ],
+        "score": 0.607
+      },
+      {
+        "chunk_id": "chunk_004",
+        "section_title": "Executive summary",
+        "page_numbers": [
+          9
+        ],
+        "score": 0.6
+      },
+      {
+        "chunk_id": "chunk_085",
+        "section_title": "References",
+        "page_numbers": [
+          43,
+          44
+        ],
+        "score": 0.556
+      }
+    ],
+    "sources_count": 5,
+    "timestamp": 1787211836.6547074,
+    "day_label": "Today"
+  },
+  {
+    "id": "cbafa5ff-6349-4acd-b62c-d5ef84c4501f",
+    "question": "ok",
+    "status": "Refused",
+    "status_slug": "refused",
+    "confidence": {
+      "score": 32,
+      "label": "Low",
+      "reason": "Hybrid retrieval score 0.353; dense/lexical agreement 0%; top-result margin 0.00."
+    },
+    "answer": "Insufficient evidence in the provided guideline. This guideline covers hypertension pharmacological treatment only.",
+    "section_title": null,
+    "summary": null,
+    "sources": [],
+    "sources_count": 0,
+    "timestamp": 1787211810.880348,
+    "day_label": "Today"
+  },
+  {
+    "id": "5c53627c-889b-4fdc-a2fe-86db293777ac",
+    "question": "What is the recommended first-line pharmacological treatment for hypertension?",
+    "status": "Allowed",
+    "status_slug": "allowed",
+    "confidence": {
+      "score": 74,
+      "label": "High",
+      "reason": "Hybrid retrieval score 0.776; dense/lexical agreement 100%; top-result margin 0.04."
+    },
+    "answer": "\ud83c\udfaf **Direct Clinical Answer**:\n##### Scope and objectives of the hypertension guideline The 2021 WHO hypertension guideline aims to provide the most current and relevant evidence-based global public health guidance on the initiation of treatment (with pharmacological agents) for hypertension in adults. The recommendations target the general adult, non-pregnant, hypertensive population.\n\n\ud83d\udc8a **Key Guidelines & Recommendations**:\n- **Scope and objectives of the hypertension guideline**: ##### Scope and objectives of the hypertension guideline The 2021 WHO hypertension guideline aims to provide the most current and relevant evidence-based global public health guidance on the initiation of treatment (with pharmacological agents) for hypertension in adults.\n- **4. RECOMMENDATION ON DRUG CLASSES TO BE USED AS FIRST-LINE AGENTS**: ## 4.\n- **Algorithm 1: Initiation of treatment with a single-pill combination**: ##### Algorithm 1: Initiation of treatment with a single-pill combination - Beginning treatment with two antihypertensive drugs from different classes is recommended when baseline BP is \u2265 20/10 mmHg above goal, and should be considered when baseline BP is \u2265 140/90 mmHg.\n- **2 Is any laboratory testing necessary prior to initiation or during titration of pharmacological treatments**: stroke), stroke, cognitive impairment/dementia, myocardial infarction, end-stage renal disease and heart failure events effects such as bradycardia, acute kidney injury, angioedema, asthma, electrolyte abnormalities or hypotension pressure reduction and control (if data on CVD events are absent) s Based on different effect modifiers such pre-existing CAD, stroke, diabetes, age, sex, chronic kidney disease and race/ethnicity, level of baseline blood pressure 6 In adults with hypertension requiring pharmacological treatment, which drugs (monotherapy using BB, CCB, diuretics, ACEi or ARB vs combination therapy using BB, CCB, diuretics, ACEi or ARB) should be used as first-line agents?\n\n\u26a0\ufe0f **Considerations & Risk Factors**:\n- Always individualize therapy for comorbidities (CVD, diabetes, chronic kidney disease) and confirm the diagnosis before initiating pharmacological treatment.\n\n\ud83d\udcda **Source Evidence & Traceability**:\n- **Page 13, 14** | *Section: Scope and objectives of the hypertension guideline* | `chunk_015`\n- **Page 10, 23** | *Section: 4. RECOMMENDATION ON DRUG CLASSES TO BE USED AS FIRST-LINE AGENTS* | `chunk_009`\n- **Page 40, 41** | *Section: Algorithm 1: Initiation of treatment with a single-pill combination* | `chunk_080`\n- **Page 57, 58, 59** | *Section: 2 Is any laboratory testing necessary prior to initiation or during titration of pharmacological treatments* | `chunk_108`\n- **Page 9, 10** | *Section: 1. RECOMMENDATION ON BLOOD PRESSURE THRESHOLD FOR INITIATION OF PHARMACOLOGICAL TREATMENT* | `chunk_006`\n\nRetrieval confidence: 74% (High)",
+    "section_title": "Scope and objectives of the hypertension guideline",
+    "summary": "##### Scope and objectives of the hypertension guideline The 2021 WHO hypertension guideline aims to provide the most current and relevant evidence-based global public health guidance on the initiation of treatment (with pharmacological agents) for hypertension in adults. The recommendations target the general adult, n",
+    "sources": [
+      {
+        "chunk_id": "chunk_015",
+        "section_title": "Scope and objectives of the hypertension guideline",
+        "page_numbers": [
+          13,
+          14
+        ],
+        "score": 0.776
+      },
+      {
+        "chunk_id": "chunk_009",
+        "section_title": "4. RECOMMENDATION ON DRUG CLASSES TO BE USED AS FIRST-LINE AGENTS",
+        "page_numbers": [
+          10,
+          23
+        ],
+        "score": 0.772
+      },
+      {
+        "chunk_id": "chunk_080",
+        "section_title": "Algorithm 1: Initiation of treatment with a single-pill combination",
+        "page_numbers": [
+          40,
+          41
+        ],
+        "score": 0.717
+      },
+      {
+        "chunk_id": "chunk_108",
+        "section_title": "2 Is any laboratory testing necessary prior to initiation or during titration of pharmacological treatments",
+        "page_numbers": [
+          57,
+          58,
+          59
+        ],
+        "score": 0.713
+      },
+      {
+        "chunk_id": "chunk_006",
+        "section_title": "1. RECOMMENDATION ON BLOOD PRESSURE THRESHOLD FOR INITIATION OF PHARMACOLOGICAL TREATMENT",
+        "page_numbers": [
+          9,
+          10
+        ],
+        "score": 0.64
+      }
+    ],
+    "sources_count": 5,
+    "timestamp": 1787211789.515822,
+    "day_label": "Today"
+  },
+  {
+    "id": "88be7fe5-2721-4033-a595-c7192e827002",
+    "question": "What lifestyle advice is recommended for hypertension?",
+    "status": "Needs Caution",
+    "status_slug": "needs_caution",
+    "confidence": {
+      "score": 56,
+      "label": "Moderate",
+      "reason": "Hybrid retrieval score 0.586; dense/lexical agreement 80%; top-result margin 0.07."
+    },
+    "answer": "\ud83c\udfaf **Direct Clinical Answer**:\n##### Scope and objectives of the hypertension guideline The 2021 WHO hypertension guideline aims to provide the most current and relevant evidence-based global public health guidance on the initiation of treatment (with pharmacological agents) for hypertension in adults. The recommendations target the general adult, non-pregnant, hypertensive population.\n\n\ud83d\udc8a **Key Guidelines & Recommendations**:\n- **Scope and objectives of the hypertension guideline**: ##### Scope and objectives of the hypertension guideline The 2021 WHO hypertension guideline aims to provide the most current and relevant evidence-based global public health guidance on the initiation of treatment (with pharmacological agents) for hypertension in adults.\n- **Scope and objectives of the hypertension guideline**: elevated on two different days.\n- **4.3 Pregnancy and hypertension**: ### 4.3 Pregnancy and hypertension Hypertension, including chronic HTN, gestational HTN, pre-eclampsia, and eclampsia, is a very common medical condition in pregnancy (99).\n- **2. RECOMMENDATION ON LABORATORY TESTING**: ## 2.\n\n\u26a0\ufe0f **Considerations & Risk Factors**:\n- Always individualize therapy for comorbidities (CVD, diabetes, chronic kidney disease) and confirm the diagnosis before initiating pharmacological treatment.\n\n\ud83d\udcda **Source Evidence & Traceability**:\n- **Page 13, 14** | *Section: Scope and objectives of the hypertension guideline* | `chunk_015`\n- **Page 14** | *Section: Scope and objectives of the hypertension guideline* | `chunk_016`\n- **Page 34, 35** | *Section: 4.3 Pregnancy and hypertension* | `chunk_061`\n- **Page 10** | *Section: 2. RECOMMENDATION ON LABORATORY TESTING* | `chunk_007`\n- **Page 14** | *Section: Secondary audience* | `chunk_019`\n\nRetrieval confidence: 56% (Moderate)",
+    "section_title": "Scope and objectives of the hypertension guideline",
+    "summary": "##### Scope and objectives of the hypertension guideline The 2021 WHO hypertension guideline aims to provide the most current and relevant evidence-based global public health guidance on the initiation of treatment (with pharmacological agents) for hypertension in adults. The recommendations target the general adult, n",
+    "sources": [
+      {
+        "chunk_id": "chunk_015",
+        "section_title": "Scope and objectives of the hypertension guideline",
+        "page_numbers": [
+          13,
+          14
+        ],
+        "score": 0.586
+      },
+      {
+        "chunk_id": "chunk_016",
+        "section_title": "Scope and objectives of the hypertension guideline",
+        "page_numbers": [
+          14
+        ],
+        "score": 0.579
+      },
+      {
+        "chunk_id": "chunk_061",
+        "section_title": "4.3 Pregnancy and hypertension",
+        "page_numbers": [
+          34,
+          35
+        ],
+        "score": 0.536
+      },
+      {
+        "chunk_id": "chunk_007",
+        "section_title": "2. RECOMMENDATION ON LABORATORY TESTING",
+        "page_numbers": [
+          10
+        ],
+        "score": 0.446
+      },
+      {
+        "chunk_id": "chunk_019",
+        "section_title": "Secondary audience",
+        "page_numbers": [
+          14
+        ],
+        "score": 0.406
+      }
+    ],
+    "sources_count": 5,
+    "timestamp": 1787211753.9213924,
+    "day_label": "Today"
+  },
+  {
+    "id": "723f9e74-10a5-467c-922e-3e15b822f05e",
+    "question": "What is the first-line drug treatment for hypertension in adults?",
+    "status": "Allowed",
+    "status_slug": "allowed",
+    "confidence": {
+      "score": 76,
+      "label": "High",
+      "reason": "Hybrid retrieval score 0.807; dense/lexical agreement 100%; top-result margin 0.03."
+    },
+    "answer": "\ud83c\udfaf **Direct Clinical Answer**:\n##### Scope and objectives of the hypertension guideline The 2021 WHO hypertension guideline aims to provide the most current and relevant evidence-based global public health guidance on the initiation of treatment (with pharmacological agents) for hypertension in adults. The recommendations target the general adult, non-pregnant, hypertensive population.\n\n\ud83d\udc8a **Key Guidelines & Recommendations**:\n- **Scope and objectives of the hypertension guideline**: ##### Scope and objectives of the hypertension guideline The 2021 WHO hypertension guideline aims to provide the most current and relevant evidence-based global public health guidance on the initiation of treatment (with pharmacological agents) for hypertension in adults.\n- **4. RECOMMENDATION ON DRUG CLASSES TO BE USED AS FIRST-LINE AGENTS**: ## 4.\n- **2 Is any laboratory testing necessary prior to initiation or during titration of pharmacological treatments**: ## 2 Is any laboratory testing necessary prior to initiation or during titration of pharmacological treatments P Adult men and women requiring antihypertensive treatment I Initiation or titration of antihypertensives without lab tests C Initiation or titration of antihypertensives with lab tests O Death (all-cause mortality), cardiovascular death (death from MI, sudden cardiac death or stroke), stroke, myocardial infarction, end-stage renal disease and heart failure events, cognitive impairment/decline control to control BP effects satisfaction s Individual drugs and doses with no comorbidities blood pressure of lab test (ECG, blood, etc) 3 Should cardiovascular risk assessment be used to guide initiation of antihypertensive medications?\n- **Algorithm 1: Initiation of treatment with a single-pill combination**: ##### Algorithm 1: Initiation of treatment with a single-pill combination - Beginning treatment with two antihypertensive drugs from different classes is recommended when baseline BP is \u2265 20/10 mmHg above goal, and should be considered when baseline BP is \u2265 140/90 mmHg.\n\n\u26a0\ufe0f **Considerations & Risk Factors**:\n- Always individualize therapy for comorbidities (CVD, diabetes, chronic kidney disease) and confirm the diagnosis before initiating pharmacological treatment.\n\n\ud83d\udcda **Source Evidence & Traceability**:\n- **Page 13, 14** | *Section: Scope and objectives of the hypertension guideline* | `chunk_015`\n- **Page 10, 23** | *Section: 4. RECOMMENDATION ON DRUG CLASSES TO BE USED AS FIRST-LINE AGENTS* | `chunk_009`\n- **Page 56, 57** | *Section: 2 Is any laboratory testing necessary prior to initiation or during titration of pharmacological treatments* | `chunk_107`\n- **Page 40, 41** | *Section: Algorithm 1: Initiation of treatment with a single-pill combination* | `chunk_080`\n- **Page 44, 45** | *Section: References* | `chunk_087`\n\nRetrieval confidence: 76% (High)",
+    "section_title": "Scope and objectives of the hypertension guideline",
+    "summary": "##### Scope and objectives of the hypertension guideline The 2021 WHO hypertension guideline aims to provide the most current and relevant evidence-based global public health guidance on the initiation of treatment (with pharmacological agents) for hypertension in adults. The recommendations target the general adult, n",
+    "sources": [
+      {
+        "chunk_id": "chunk_015",
+        "section_title": "Scope and objectives of the hypertension guideline",
+        "page_numbers": [
+          13,
+          14
+        ],
+        "score": 0.807
+      },
+      {
+        "chunk_id": "chunk_009",
+        "section_title": "4. RECOMMENDATION ON DRUG CLASSES TO BE USED AS FIRST-LINE AGENTS",
+        "page_numbers": [
+          10,
+          23
+        ],
+        "score": 0.804
+      },
+      {
+        "chunk_id": "chunk_107",
+        "section_title": "2 Is any laboratory testing necessary prior to initiation or during titration of pharmacological treatments",
+        "page_numbers": [
+          56,
+          57
+        ],
+        "score": 0.726
+      },
+      {
+        "chunk_id": "chunk_080",
+        "section_title": "Algorithm 1: Initiation of treatment with a single-pill combination",
+        "page_numbers": [
+          40,
+          41
+        ],
+        "score": 0.703
+      },
+      {
+        "chunk_id": "chunk_087",
+        "section_title": "References",
+        "page_numbers": [
+          44,
+          45
+        ],
+        "score": 0.693
+      }
+    ],
+    "sources_count": 5,
+    "timestamp": 1787211750.7589169,
+    "day_label": "Today"
+  },
+  {
+    "id": "eb2bfbf4-8dc1-44b8-983b-6e27935cbed5",
+    "question": "What target blood pressure should adults with hypertension aim for?",
+    "status": "Allowed",
+    "status_slug": "allowed",
+    "confidence": {
+      "score": 70,
+      "label": "High",
+      "reason": "Hybrid retrieval score 0.742; dense/lexical agreement 100%; top-result margin 0.12."
+    },
+    "answer": "\ud83c\udfaf **Direct Clinical Answer**:\n## 9 What target blood pressure should pharmacological treatment aim to achieve? P Adult men and women I Specific systolic and diastolic blood pressure targets: (mmHg): < 120, < 130, < 140, < 150 (mmHg): < 70, < 80, < 90 C Systolic or diastolic blood pressure targets that are higher than the intervention targets O Death (all-cause mortality), cardiovascular death (death from MI, sudden cardiac death or stroke), stroke, myocardial infarction, end-stage renal disease heart failure events, cognitive impairment/dementia, and adverse events s Based on different effect modifiers such pre-existing CAD, stroke, diabetes, age, sex, chronic kidney disease and race/ethnicity\n\n\ud83d\udc8a **Key Guidelines & Recommendations**:\n- **9 What target blood pressure should pharmacological treatment aim to achieve?**: ## 9 What target blood pressure should pharmacological treatment aim to achieve?\n- **3.6 Target blood pressure**: ### 3.6 Target blood pressure 6.\n- **6. RECOMMENDATIONS ON TARGET BLOOD PRESSURE**: ## 6.\n- **10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?**: ## 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?\n\n\u26a0\ufe0f **Considerations & Risk Factors**:\n- Always individualize therapy for comorbidities (CVD, diabetes, chronic kidney disease) and confirm the diagnosis before initiating pharmacological treatment.\n\n\ud83d\udcda **Source Evidence & Traceability**:\n- **Page 59** | *Section: 9 What target blood pressure should pharmacological treatment aim to achieve?* | `chunk_110`\n- **Page 28** | *Section: 3.6 Target blood pressure* | `chunk_047`\n- **Page 10, 11** | *Section: 6. RECOMMENDATIONS ON TARGET BLOOD PRESSURE* | `chunk_011`\n- **Page 59, 60** | *Section: 10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?* | `chunk_111`\n- **Page 25, 26** | *Section: 5. RECOMMENDATION ON COMBINATION THERAPY* | `chunk_042`\n\nRetrieval confidence: 70% (High)",
+    "section_title": "9 What target blood pressure should pharmacological treatment aim to achieve?",
+    "summary": "## 9 What target blood pressure should pharmacological treatment aim to achieve? P Adult men and women I Specific systolic and diastolic blood pressure targets: (mmHg): < 120, < 130, < 140, < 150 (mmHg): < 70, < 80, < 90 C Systolic or diastolic blood pressure targets that are higher than the intervention targets O Deat",
+    "sources": [
+      {
+        "chunk_id": "chunk_110",
+        "section_title": "9 What target blood pressure should pharmacological treatment aim to achieve?",
+        "page_numbers": [
+          59
+        ],
+        "score": 0.742
+      },
+      {
+        "chunk_id": "chunk_047",
+        "section_title": "3.6 Target blood pressure",
+        "page_numbers": [
+          28
+        ],
+        "score": 0.73
+      },
+      {
+        "chunk_id": "chunk_011",
+        "section_title": "6. RECOMMENDATIONS ON TARGET BLOOD PRESSURE",
+        "page_numbers": [
+          10,
+          11
+        ],
+        "score": 0.719
+      },
+      {
+        "chunk_id": "chunk_111",
+        "section_title": "10 In adults with hypertension given pharmacological treatment, when should blood pressure be reassessed?",
+        "page_numbers": [
+          59,
+          60
+        ],
+        "score": 0.687
+      },
+      {
+        "chunk_id": "chunk_042",
+        "section_title": "5. RECOMMENDATION ON COMBINATION THERAPY",
+        "page_numbers": [
+          25,
+          26
+        ],
+        "score": 0.654
+      }
+    ],
+    "sources_count": 5,
+    "timestamp": 1787211739.382375,
+    "day_label": "Today"
+  },
+  {
+    "id": "128b5d4f-884d-49bf-917e-82dbeabfef2f",
+    "question": "Hi",
+    "status": "Refused",
+    "status_slug": "refused",
+    "confidence": {
+      "score": 44,
+      "label": "Low",
+      "reason": "Hybrid retrieval score 0.420; dense/lexical agreement 0%; top-result margin 0.67."
+    },
+    "answer": "Insufficient evidence in the provided guideline. This guideline covers hypertension pharmacological treatment only.",
+    "section_title": null,
+    "summary": null,
+    "sources": [],
+    "sources_count": 0,
+    "timestamp": 1787211735.1263816,
+    "day_label": "Today"
+  },
+  {
+    "id": "86017c71-fdf7-4a75-8661-928709fb90ba",
+    "question": "hgm",
+    "status": "Refused",
+    "status_slug": "refused",
+    "confidence": {
+      "score": 34,
+      "label": "Low",
+      "reason": "Hybrid retrieval score 0.361; dense/lexical agreement 0%; top-result margin 0.08."
+    },
+    "answer": "Insufficient evidence in the provided guideline. This guideline covers hypertension pharmacological treatment only.",
+    "section_title": null,
+    "summary": null,
+    "sources": [],
+    "sources_count": 0,
+    "timestamp": 1787211728.6064901,
+    "day_label": "Today"
+  }
+]

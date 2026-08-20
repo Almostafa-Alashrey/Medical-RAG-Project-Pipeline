@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>PressIQ — History</title>
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<div class="page-shell">
+
+  <nav class="navbar">
+    <div class="brand">
+      <span class="brand-mark">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3C6 8 3 11.5 3 15a9 9 0 0018 0c0-3.5-3-7-9-12z"/></svg>
+      </span>
+      PressIQ
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="chat.html">Chat</a>
+      <a href="history.html" class="active">History</a>
+      <a href="about.html">About</a>
+    </div>
+    <div class="nav-right">
+      <a href="chat.html" class="btn btn-primary">Start chat</a>
+    </div>
+  </nav>
+
+  <div class="history-head">
+    <div>
+      <h1>Previous questions</h1>
+      <p>Every question you've asked, with its confidence status.</p>
+    </div>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search questions…" />
+    </div>
+  </div>
+
+  <div class="filter-tabs" id="filterTabs">
+    <button class="filter-tab active" data-status="all">All</button>
+    <button class="filter-tab" data-status="allowed">Allowed</button>
+    <button class="filter-tab" data-status="needs_caution">Needs caution</button>
+    <button class="filter-tab" data-status="refused">Refused</button>
+  </div>
+
+  <div class="history-list" id="historyList">
+    <div class="history-empty">Loading…</div>
+  </div>
+
+</div>
+
+<script src="assets/js/api.js"></script>
+<script src="assets/js/history.js"></script>
+</body>
+</html>
